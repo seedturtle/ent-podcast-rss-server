@@ -1,10 +1,3 @@
-/**
- * ENT Update Podcast RSS Feed Server
- * 
- * 查詢 Google Drive ENT_update 資料夾，動態生成 RSS XML
- * 部署到 Zeabur，透過 /feed.xml 供 Podcast 平台訂閱
- */
-
 const express = require('express');
 const https = require('https');
 
@@ -12,8 +5,8 @@ const app = express();
 const PORT = parseInt(process.env.PORT || "3000", 10);
 
 // ========== 設定區 ==========
-const ENT_FOLDER_ID = process.env.ENT_FOLDER_ID || '1yB8xGj5eF3x9XwKp2r7TvQa4m6n8LsC'; // KIRITU/ENT_update
-const FEED_BASE_URL = process.env.FEED_BASE_URL || 'https://entupdate.zeabur.app';
+const ENT_FOLDER_ID = process.env.ENT_FOLDER_ID || '1yB8xGj5eF3x9XwKp2r7TvQa4m6n8LsC';
+const FEED_BASE_URL = process.env.FEED_BASE_URL || 'https://entpodcast.zeabur.app';
 const SHOW = {
   title: 'ENT Update',
   description: '耳鼻喉頭頸醫學最新資訊。每週為專業醫療人員整理國際文獻、研究進展與臨床新知。內容涵蓋：耳科、鼻科、喉科、頭頸外科、語言治療、聽力學等領域。',
@@ -32,41 +25,60 @@ const MATON_KEY = process.env.MATON_API_KEY;
 const CONN_ID   = process.env.MATON_CONN_ID || 'aa84aef8-287a-4271-a4b7-26a67b0c6adf';
 
 // ========== Google Drive 查詢（Maton Gateway）==========
-function driveRequest(path, params = {}) {
+function driveRequest(path, params) {
   return new Promise((resolve, reject) => {
-    const queryParts = Object.entries(params).map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`);
-    const qs = queryParts.length ? '?' + queryParts.join('&') : '';
+    const queryString = Object.entries(params)
+      .map(([k, v]) => `${encodeURIComponent(k)}=${encodeURIComponent(v)}`)
+      .join('&');
     const options = {
       hostname: 'gateway.maton.ai',
-      path: `/google-drive${path}${qs}`,
+      path: `/google-drive${path}?${queryString}`,
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${MATON_KEY}`,
         'Maton-Connection': CONN_ID
       }
     };
+    console.log('[DEBUG] Request path:', options.path);
     const req = https.request(options, res => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        try { resolve(JSON.parse(data)); }
-        catch (e) { reject(new Error('JSON parse error: ' + data.slice(0, 200))); }
+        try {
+          const parsed = JSON.parse(data);
+          console.log('[DEBUG] Drive response files count:', (parsed.files || []).length);
+          resolve(parsed);
+        } catch (e) {
+          reject(new Error('JSON parse error: ' + data.slice(0, 200)));
+        }
       });
     });
     req.on('error', reject);
-    req.setTimeout(10000, () => reject(new Error('Drive request timeout')));
+    req.setTimeout(15000, () => reject(new Error('Drive request timeout')));
     req.end();
   });
 }
 
 async function getPodcastFiles() {
+  const folderId = ENT_FOLDER_ID;
+  // Use name contains '.mp3' instead of mimeType filter for more reliable results
+  const query = `name contains '.mp3' and '${folderId}' in parents and trashed=false`;
+  
+  console.log('[DEBUG] Folder ID:', folderId);
+  console.log('[DEBUG] Query:', query);
+  
   const result = await driveRequest('/drive/v3/files', {
     fields: 'files(id,name,mimeType,createdTime,modifiedTime,size,description)',
-    q: `mimeType='audio/mpeg' and '${ENT_FOLDER_ID}' in parents and trashed=false`,
-    orderBy: 'modifiedTime desc',
+    q: query,
     pageSize: 50
   });
-  return result.files || [];
+  
+  const files = (result.files || []).filter(f => 
+    f.mimeType && f.mimeType.startsWith('audio/')
+  );
+  
+  console.log('[DEBUG] Audio files found:', files.length);
+  return files;
 }
 
 // ========== MP3 公開網址（優先讀取 description）==========
@@ -100,11 +112,14 @@ function generateRSS(files) {
 `;
 
   if (SHOW.imageUrl) {
-    xml += `    <itunes:image href="${SHOW.imageUrl}"/>\n`;
-    xml += `    <image><url>${SHOW.imageUrl}</url><title>${SHOW.title}</title><link>${SHOW.link}</link></image>\n`;
+    xml += `    <itunes:image href="${SHOW.imageUrl}"/>
+`;
+    xml += `    <image><url>${SHOW.imageUrl}</url><title>${SHOW.title}</title><link>${SHOW.link}</link></image>
+`;
   }
 
-  xml += `    <ttl>60</ttl>\n`;
+  xml += `    <ttl>60</ttl>
+`;
 
   files.forEach((file, index) => {
     const dateMatch = file.name.match(/(\d{8})/);
@@ -126,10 +141,12 @@ function generateRSS(files) {
       <itunes:title>${episodeTitle}</itunes:title>
       <itunes:duration>${durationSecs}</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-    </item>\n`;
+    </item>
+`;
   });
 
-  xml += `  </channel>\n</rss>`;
+  xml += `  </channel>
+</rss>`;
   return xml;
 }
 
