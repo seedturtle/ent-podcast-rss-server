@@ -1,0 +1,12 @@
+{
+  "name": "ent-podcast-rss-server",
+  "version": "1.0.0",
+  "description": "ENT Update Podcast RSS Feed Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
