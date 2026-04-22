@@ -5,7 +5,7 @@ const app = express();
 const PORT = parseInt(process.env.PORT || "3000", 10);
 
 // ========== 設定區 ==========
-const ENT_FOLDER_ID = process.env.ENT_FOLDER_ID || '1yB8xGj5eF3x9XwKp2r7TvQa4m6n8LsC';
+const ENT_FOLDER_ID = process.env.ENT_FOLDER_ID || '1s7nR_Y-pK-v2fQ0dSl-X3NPX-txpV5vk';
 const FEED_BASE_URL = process.env.FEED_BASE_URL || 'https://entpodcast.zeabur.app';
 const SHOW = {
   title: 'ENT Update',
