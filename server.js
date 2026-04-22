@@ -14,7 +14,7 @@ const SHOW = {
   email: 'seedturtle1976@gmail.com',
   language: 'zh-tw',
   categories: ['Science', 'Medicine', 'Health & Fitness'],
-  imageUrl: process.env.COVER_IMAGE_URL || 'https://drive.google.com/uc?id=1bnUv8_51aHpg2B6pMZOqD10MyvjWlCSj&export=download',
+  imageUrl: process.env.COVER_IMAGE_URL || 'https://drive.google.com/uc?id=1e9NLJLoXp-vmncEtgQ6g4AmPXxaPg7r8&export=download',
   link: FEED_BASE_URL,
   ownerName: '洪醫師 Seedturtle',
   copyright: `Copyright ${new Date().getFullYear()} ENT Update`
