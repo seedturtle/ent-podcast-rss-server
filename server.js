@@ -22,7 +22,6 @@ const SHOW = {
 
 // Maton API Gateway
 const MATON_KEY = process.env.MATON_API_KEY;
-const CONN_ID   = process.env.MATON_CONN_ID || 'aa84aef8-287a-4271-a4b7-26a67b0c6adf';
 
 // ========== Google Drive 查詢（Maton Gateway）==========
 function driveRequest(path, params) {
@@ -35,22 +34,15 @@ function driveRequest(path, params) {
       path: `/google-drive${path}?${queryString}`,
       method: 'GET',
       headers: {
-        'Authorization': `Bearer ${MATON_KEY}`,
-        'Maton-Connection': CONN_ID
+        'Authorization': `Bearer ${MATON_KEY}`
       }
     };
-    console.log('[DEBUG] Request path:', options.path);
     const req = https.request(options, res => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
-        try {
-          const parsed = JSON.parse(data);
-          console.log('[DEBUG] Drive response files count:', (parsed.files || []).length);
-          resolve(parsed);
-        } catch (e) {
-          reject(new Error('JSON parse error: ' + data.slice(0, 200)));
-        }
+        try { resolve(JSON.parse(data)); }
+        catch (e) { reject(new Error('JSON parse error: ' + data.slice(0, 200))); }
       });
     });
     req.on('error', reject);
@@ -61,24 +53,14 @@ function driveRequest(path, params) {
 
 async function getPodcastFiles() {
   const folderId = ENT_FOLDER_ID;
-  // Use name contains '.mp3' instead of mimeType filter for more reliable results
-  const query = `name contains '.mp3' and '${folderId}' in parents and trashed=false`;
-  
-  console.log('[DEBUG] Folder ID:', folderId);
-  console.log('[DEBUG] Query:', query);
+  const query = `mimeType='audio/mpeg' and '${folderId}' in parents and trashed=false`;
   
   const result = await driveRequest('/drive/v3/files', {
     fields: 'files(id,name,mimeType,createdTime,modifiedTime,size,description)',
     q: query,
     pageSize: 50
   });
-  
-  const files = (result.files || []).filter(f => 
-    f.mimeType && f.mimeType.startsWith('audio/')
-  );
-  
-  console.log('[DEBUG] Audio files found:', files.length);
-  return files;
+  return result.files || [];
 }
 
 // ========== MP3 公開網址（優先讀取 description）==========
