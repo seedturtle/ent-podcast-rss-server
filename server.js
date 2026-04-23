@@ -149,12 +149,52 @@ async function getPodcastFiles() {
   return result.files || [];
 }
 
-// ========== MP3 Public URL (prefer reading description) ==========
+// ========== Audio Proxy (stream from Google Drive via Maton) ==========
+app.get('/audio/:fileId', async (req, res) => {
+  try {
+    const { fileId } = req.params;
+    const file = await driveRequest(`/drive/v3/files/${fileId}`, {
+      fields: 'name,mimeType,size'
+    });
+
+    const fileStream = https.request({
+      hostname: 'gateway.maton.ai',
+      path: `/google-drive/drive/v3/files/${fileId}?alt=media`,
+      method: 'GET',
+      headers: { 'Authorization': `Bearer ${MATON_KEY}` }
+    }, (drivesRes) => {
+      res.set({
+        'Content-Type': 'audio/mpeg',
+        'Content-Length': drivesRes.headers['content-length'] || file.size || 0,
+        'Accept-Ranges': 'bytes',
+        'Cache-Control': 'public, max-age=86400'
+      });
+      drivesRes.pipe(res);
+    });
+
+    fileStream.on('error', (err) => {
+      console.error('Audio proxy error:', err.message);
+      if (!res.headersSent) res.status(500).send('Audio stream error');
+    });
+
+    fileStream.setTimeout(30000, () => {
+      fileStream.destroy();
+      if (!res.headersSent) res.status(504).send('Audio stream timeout');
+    });
+
+    fileStream.end();
+  } catch (err) {
+    console.error('Audio proxy fetch error:', err.message);
+    if (!res.headersSent) res.status(500).send('File not found');
+  }
+});
+
+// ========== MP3 Public URL (use local proxy) ==========
 function getAudioUrl(file) {
   if (file.description && file.description.startsWith('http')) {
     return file.description;
   }
-  return `https://drive.google.com/uc?id=${file.id}&export=download`;
+  return `${FEED_BASE_URL}/audio/${file.id}`;
 }
 
 // ========== RSS XML Generation ==========
