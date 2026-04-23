@@ -17,7 +17,7 @@ const SHOW = {
   author: 'Doctor Hung Seedturtle',
   email: 'seedturtle1976@gmail.com',
   language: 'zh-tw',
-  imageUrl: process.env.COVER_IMAGE_URL || 'https://drive.google.com/uc?id=1e9NLJLoXp-vmncEtgQ6g4AmPXxaPg7r8&export=download',
+  imageUrl: process.env.COVER_IMAGE_URL || 'https://agent-cdn.minimax.io/mcp/cdn_upload/495582502232113157/382781085360351/1776940820_127cea1a.png',
   link: FEED_BASE_URL,
   ownerName: 'Doctor Hung Seedturtle',
   copyright: `Copyright ${new Date().getFullYear()} ENT Update`
