@@ -17,6 +17,7 @@ const SHOW = {
   author: 'Doctor Hung Seedturtle',
   email: 'seedturtle1976@gmail.com',
   language: 'zh-tw',
+  imageUrl: process.env.COVER_IMAGE_URL || 'https://drive.google.com/uc?id=1e9NLJLoXp-vmncEtgQ6g4AmPXxaPg7r8&export=download',
   link: FEED_BASE_URL,
   ownerName: 'Doctor Hung Seedturtle',
   copyright: `Copyright ${new Date().getFullYear()} ENT Update`
@@ -161,8 +162,9 @@ function generateRSS(files) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>no</itunes:explicit>\n    <itunes:category text="Technology"/>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
 
   if (SHOW.imageUrl) {
-    xml += `    <itunes:image href="${SHOW.imageUrl}"/>\n`;
-    xml += `    <image><url>${SHOW.imageUrl}</url><title>${SHOW.title}</title><link>${SHOW.link}</link></image>\n`;
+    const imgUrl = SHOW.imageUrl.replace(/&/g, '&amp;');
+    xml += `    <itunes:image href="${imgUrl}"/>\n`;
+    xml += `    <image><url>${imgUrl}</url><title>${SHOW.title}</title><link>${SHOW.link}</link></image>\n`;
   }
 
   xml += `    <ttl>60</ttl>\n`;
