@@ -196,6 +196,7 @@ app.get('/feed.xml', async (req, res) => {
   try {
     const files = await getPodcastFiles();
     const xml = generateRSS(files);
+    const contentLength = Buffer.byteLength(xml, 'utf8');
 
     // Determine Last-Modified header: use the latest file's modifiedTime or current time
     let lastModified = new Date().toUTCString();
@@ -212,11 +213,12 @@ app.get('/feed.xml', async (req, res) => {
 
     res.set({
       'Content-Type': 'application/rss+xml; charset=utf-8',
+      'Content-Length': contentLength,
       'Cache-Control': 'public, max-age=3600',
       'Last-Modified': lastModified
     });
     res.send(xml);
-    console.log(`[${new Date().toISOString()}] ENT RSS generated: ${files.length} episodes`);
+    console.log(`[${new Date().toISOString()}] ENT RSS generated: ${files.length} episodes, ${contentLength} bytes`);
   } catch (err) {
     console.error('ENT RSS error:', err.message);
     res.status(500).send(`<!-- RSS Error: ${err.message} --> `);
