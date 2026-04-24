@@ -220,8 +220,11 @@ function generateRSS(files) {
       ? `Episode ${episodeNum} | ${dateStr.slice(0,4)}/${dateStr.slice(4,6)}/${dateStr.slice(6,8)}`
       : `Episode ${episodeNum}`;
     const audioUrl = getAudioUrl(file).replace(/&/g, '&amp;');
+    const episodeDesc = file.description && file.description.trim()
+      ? file.description.trim()
+      : `ENT Update, ${episodeTitle}. ENT Head and Neck Medicine latest information.`;
 
-    xml += `    <item>\n      <title><![CDATA[${episodeTitle}]]></title>\n      <description><![CDATA[ENT Update, ${episodeTitle}. ENT Head and Neck Medicine latest information.]]></description>\n      <pubDate>${pubDate}</pubDate>\n      <enclosure url="${audioUrl}" type="audio/mpeg" length="${size}"/>\n      <guid isPermaLink="false">${file.id}</guid>\n      <itunes:title>${episodeTitle}</itunes:title>\n      <itunes:duration>${durationSecs}</itunes:duration>\n      <itunes:explicit>no</itunes:explicit>\n    </item>\n`;
+    xml += `    <item>\n      <title><![CDATA[${episodeTitle}]]></title>\n      <description><![CDATA[${episodeDesc}]]></description>\n      <itunes:summary><![CDATA[${episodeDesc}]]></itunes:summary>\n      <pubDate>${pubDate}</pubDate>\n      <enclosure url="${audioUrl}" type="audio/mpeg" length="${size}"/>\n      <guid isPermaLink="false">${file.id}</guid>\n      <itunes:title>${episodeTitle}</itunes:title>\n      <itunes:duration>${durationSecs}</itunes:duration>\n      <itunes:explicit>no</itunes:explicit>\n    </item>\n`;
   });
 
   xml += `  </channel>\n</rss>`;
