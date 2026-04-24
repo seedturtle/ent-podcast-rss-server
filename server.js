@@ -214,7 +214,7 @@ function generateRSS(files) {
     const dateStr = dateMatch ? dateMatch[1] : '';
     const pubDate = file.modifiedTime ? new Date(file.modifiedTime).toUTCString() : new Date().toUTCString();
     const size = parseInt(file.size || 0);
-    const durationSecs = Math.round(size / (128 * 1024 / 8));
+    const durationSecs = Math.round(size / (128 * 1000 / 8));
     const episodeNum = files.length - index;
     const episodeTitle = dateStr
       ? `Episode ${episodeNum} | ${dateStr.slice(0,4)}/${dateStr.slice(4,6)}/${dateStr.slice(6,8)}`
