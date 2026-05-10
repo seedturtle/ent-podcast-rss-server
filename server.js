@@ -206,12 +206,13 @@ function cleanText(text) {
     .replace(/\uFFFD\uFFFD/g, '')
     .replace(/[\uDC00-\uDFFF]/g, '')
     .replace(/[\uD800-\uDBFF][^\uDC00-\uDFFF]/g, '')
+    .replace(/[<>]/g, '')
     .trim();
 }
 
 // ========== RSS XML Generation ==========
 function generateRSS(files) {
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:subtitle>${SHOW.subtitle}</itunes:subtitle>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:type>episodic</itunes:type>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>no</itunes:explicit>\n    <itunes:category text="Science">\n      <itunes:category text="Medicine"/>\n    </itunes:category>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:subtitle>${SHOW.subtitle}</itunes:subtitle>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:type>episodic</itunes:type>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>false</itunes:explicit>\n    <itunes:category text="Science"/>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
 
   if (SHOW.imageUrl) {
     const imgUrl = SHOW.imageUrl.replace(/&/g, '&amp;');
@@ -238,7 +239,7 @@ function generateRSS(files) {
     const episodeDesc = cleanText(rawDesc);
     const episodeLink = `${FEED_BASE_URL}/audio/${file.id}`;
 
-    xml += `    <item>\n      <title><![CDATA[${episodeTitle}]]></title>\n      <link>${episodeLink}</link>\n      <description><![CDATA[${episodeDesc}]]></description>\n      <itunes:summary><![CDATA[${episodeDesc}]]></itunes:summary>\n      <pubDate>${pubDate}</pubDate>\n      <enclosure url="${audioUrl}" type="audio/mpeg" length="${size}"/>\n      <guid isPermaLink="false">${file.id}</guid>\n      <itunes:title>${episodeTitle}</itunes:title>\n      <itunes:episodeType>full</itunes:episodeType>\n      <itunes:duration>${durationSecs}</itunes:duration>\n      <itunes:explicit>no</itunes:explicit>\n    </item>\n`;
+    xml += `    <item>\n      <title><![CDATA[${episodeTitle}]]></title>\n      <link>${episodeLink}</link>\n      <description><![CDATA[${episodeDesc}]]></description>\n      <itunes:summary><![CDATA[${episodeDesc}]]></itunes:summary>\n      <pubDate>${pubDate}</pubDate>\n      <enclosure url="${audioUrl}" type="audio/mpeg" length="${size}"/>\n      <guid isPermaLink="false">${file.id}</guid>\n      <itunes:title>${episodeTitle}</itunes:title>\n      <itunes:episodeType>full</itunes:episodeType>\n      <itunes:duration>${durationSecs}</itunes:duration>\n      <itunes:explicit>false</itunes:explicit>\n    </item>\n`;
   });
 
   xml += `  </channel>\n</rss>`;
