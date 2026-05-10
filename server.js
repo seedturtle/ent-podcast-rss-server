@@ -7,6 +7,7 @@ const PORT = parseInt(process.env.PORT || "3000", 10);
 
 // Apply compression middleware to fix content-encoding issue
 app.use(compression());
+app.use('/static', express.static(path.join(__dirname, 'static')));
 
 // ========== Configuration ==========
 const ENT_FOLDER_ID = process.env.ENT_FOLDER_ID || '1s7nR_Y-pK-v2fQ0dSl-X3NPX-txpV5vk';
@@ -18,7 +19,7 @@ const SHOW = {
   author: 'Doctor Hung Seedturtle',
   email: 'seedturtle1976@gmail.com',
   language: 'zh-TW',
-  imageUrl: process.env.COVER_IMAGE_URL || 'https://lh3.googleusercontent.com/d/1WEN1qivEXaoWYOs6d6KTl7YCee4xABI6=s3000',
+  imageUrl: process.env.COVER_IMAGE_URL || FEED_BASE_URL + '/static/ent-update-cover-3000.jpg',
   link: FEED_BASE_URL,
   ownerName: 'Doctor Hung Seedturtle',
   copyright: `Copyright ${new Date().getFullYear()} ENT Update`
@@ -207,6 +208,16 @@ function cleanText(text) {
     .replace(/[\uDC00-\uDFFF]/g, '')
     .replace(/[\uD800-\uDBFF][^\uDC00-\uDFFF]/g, '')
     .replace(/[<>]/g, '')
+    // Strip embedded XML/RSS declarations
+    .replace(/<\?xml[^>]*\?>\s*/gi, '')
+    .replace(/<rss[^>]*>/gi, '')
+    .replace(/<\/rss>/gi, '')
+    .replace(/<channel[^>]*>/gi, '')
+    .replace(/<\/channel>/gi, '')
+    .replace(/<item[^>]*>/gi, '')
+    .replace(/<\/item>/gi, '')
+    // Strip JSON artifacts like ,"summary":
+    .replace(/,\x22[a-zA-Z]+\x22\s*:\s*\x22/g, '')
     .trim();
 }
 
