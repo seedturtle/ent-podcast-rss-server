@@ -1,5 +1,7 @@
 const express = require('express');
 const https = require('https');
+const path = require('path');
+const fs = require('fs');
 const compression = require('compression');
 
 const app = express();
@@ -27,9 +29,6 @@ const SHOW = {
 
 // Maton API Gateway
 const MATON_KEY = process.env.MATON_API_KEY;
-const fs = require('fs');
-const path = require('path');
-
 // ========== Google Drive Query (Maton Gateway) ==========
 function driveRequest(path, params) {
   return new Promise((resolve, reject) => {

@@ -3,5 +3,6 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install --omit=dev --ignore-scripts
 COPY server.js ./
+COPY static ./static/
 EXPOSE 3000
 CMD ["node", "server.js"]
