@@ -145,7 +145,8 @@ async function getPodcastFiles() {
   const result = await driveRequest('/drive/v3/files', {
     fields: 'files(id,name,mimeType,createdTime,modifiedTime,size,description)',
     q: query,
-    pageSize: 50
+    pageSize: 50,
+    orderBy: 'createdTime desc'
   });
   return result.files || [];
 }
