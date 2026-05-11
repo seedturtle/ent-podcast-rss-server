@@ -151,7 +151,10 @@ async function getPodcastFiles() {
 }
 
 // ========== Audio Proxy (stream from Google Drive via Maton) ==========
+// Support both /audio/:fileId and /audio/:fileId.mp3
 app.get('/audio/:fileId', async (req, res) => {
+  // Strip .mp3 extension if present
+  req.params.fileId = req.params.fileId.replace(/\.mp3$/i, '');
   try {
     const { fileId } = req.params;
     const file = await driveRequest(`/drive/v3/files/${fileId}`, {
@@ -215,7 +218,7 @@ function getAudioUrl(file) {
   if (file.description && file.description.startsWith('http')) {
     return file.description;
   }
-  return `${FEED_BASE_URL}/audio/${file.id}`;
+  return `${FEED_BASE_URL}/audio/${file.id}.mp3`;
 }
 
 // Clean text: remove Unicode replacement characters and normalize
@@ -242,7 +245,7 @@ function cleanText(text) {
 
 // ========== RSS XML Generation ==========
 function generateRSS(files) {
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:subtitle>${SHOW.subtitle}</itunes:subtitle>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:type>episodic</itunes:type>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>false</itunes:explicit>\n    <itunes:category text="Science"/>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:subtitle>${SHOW.subtitle}</itunes:subtitle>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:type>episodic</itunes:type>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>false</itunes:explicit>\n    <itunes:category text="Science"/>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
 
   if (SHOW.imageUrl) {
     const imgUrl = SHOW.imageUrl.replace(/&/g, '&amp;');
@@ -267,7 +270,7 @@ function generateRSS(files) {
       ? file.description.trim()
       : `ENT Update, ${episodeTitle}. ENT Head and Neck Medicine latest information.`;
     const episodeDesc = cleanText(rawDesc);
-    const episodeLink = `${FEED_BASE_URL}/audio/${file.id}`;
+    const episodeLink = `${FEED_BASE_URL}/audio/${file.id}.mp3`;
 
     xml += `    <item>\n      <title><![CDATA[${episodeTitle}]]></title>\n      <link>${episodeLink}</link>\n      <description><![CDATA[${episodeDesc}]]></description>\n      <itunes:summary><![CDATA[${episodeDesc}]]></itunes:summary>\n      <pubDate>${pubDate}</pubDate>\n      <enclosure url="${audioUrl}" type="audio/mpeg" length="${size}"/>\n      <guid isPermaLink="false">${file.id}</guid>\n      <itunes:title>${episodeTitle}</itunes:title>\n      <itunes:episodeType>full</itunes:episodeType>\n      <itunes:duration>${durationSecs}</itunes:duration>\n      <itunes:explicit>false</itunes:explicit>\n    </item>\n`;
   });
