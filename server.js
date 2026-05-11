@@ -18,12 +18,12 @@ const SHOW = {
   title: 'ENT Update',
   description: 'Ear, nose and throat head and neck medicine latest information. Weekly curated international literature, research progress and clinical updates for medical professionals. Content includes: otology, rhinology, laryngology, head and neck surgery, speech therapy, audiology, etc.',
   subtitle: 'Latest ENT research and clinical updates',
-  author: 'Doctor Hung Seedturtle',
+  author: '洪士涵醫師',
   email: 'seedturtle1976@gmail.com',
   language: 'zh-TW',
   imageUrl: process.env.COVER_IMAGE_URL || FEED_BASE_URL + '/static/ent-update-cover-3000.jpg',
   link: FEED_BASE_URL,
-  ownerName: 'Doctor Hung Seedturtle',
+  ownerName: '洪士涵醫師',
   copyright: `Copyright ${new Date().getFullYear()} ENT Update`
 };
 
@@ -243,6 +243,16 @@ function cleanText(text) {
     .trim();
 }
 
+// ========== Duration Format Helper ==========
+function formatDuration(seconds) {
+  const h = Math.floor(seconds / 3600);
+  const m = Math.floor((seconds % 3600) / 60);
+  const s = seconds % 60;
+  if (h > 0) return `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  if (m > 0) return `${m}:${String(s).padStart(2,'0')}`;
+  return `0:${String(s).padStart(2,'0')}`;
+}
+
 // ========== RSS XML Generation ==========
 function generateRSS(files) {
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:subtitle>${SHOW.subtitle}</itunes:subtitle>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:type>episodic</itunes:type>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>false</itunes:explicit>\n    <itunes:category text="Science"/>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
@@ -257,14 +267,19 @@ function generateRSS(files) {
 
   files.forEach((file, index) => {
     const dateMatch = file.name.match(/(\d{8})/);
-    const dateStr = dateMatch ? dateMatch[1] : '';
+    let dateStr = dateMatch ? dateMatch[1] : '';
+    if (!dateStr && file.createdTime) {
+      dateStr = file.createdTime.slice(0,10).replace(/-/g, '');
+    }
     const pubDate = file.modifiedTime ? new Date(file.modifiedTime).toUTCString() : new Date().toUTCString();
     const size = parseInt(file.size || 0);
     const durationSecs = Math.round(size / (128 * 1000 / 8));
     const episodeNum = files.length - index;
+    const isSpecial = file.name.includes('Special') || (file.description && file.description.includes('特輯'));
+    const suffix = isSpecial ? '-Special' : '';
     const episodeTitle = dateStr
-      ? `Episode ${episodeNum} | ${dateStr.slice(0,4)}/${dateStr.slice(4,6)}/${dateStr.slice(6,8)}`
-      : `Episode ${episodeNum}`;
+      ? `Episode ${episodeNum}${suffix} | ${dateStr.slice(0,4)}/${dateStr.slice(4,6)}/${dateStr.slice(6,8)}`
+      : `Episode ${episodeNum}${suffix}`;
     const audioUrl = getAudioUrl(file).replace(/&/g, '&amp;');
     const rawDesc = file.description && file.description.trim()
       ? file.description.trim()
@@ -272,7 +287,7 @@ function generateRSS(files) {
     const episodeDesc = cleanText(rawDesc);
     const episodeLink = `${FEED_BASE_URL}/audio/${file.id}.mp3`;
 
-    xml += `    <item>\n      <title><![CDATA[${episodeTitle}]]></title>\n      <link>${episodeLink}</link>\n      <description><![CDATA[${episodeDesc}]]></description>\n      <itunes:summary><![CDATA[${episodeDesc}]]></itunes:summary>\n      <pubDate>${pubDate}</pubDate>\n      <enclosure url="${audioUrl}" type="audio/mpeg" length="${size}"/>\n      <guid isPermaLink="false">${file.id}</guid>\n      <itunes:title>${episodeTitle}</itunes:title>\n      <itunes:episodeType>full</itunes:episodeType>\n      <itunes:duration>${durationSecs}</itunes:duration>\n      <itunes:explicit>false</itunes:explicit>\n    </item>\n`;
+    xml += `    <item>\n      <title><![CDATA[${episodeTitle}]]></title>\n      <link>${episodeLink}</link>\n      <description><![CDATA[${episodeDesc}]]></description>\n      <itunes:summary><![CDATA[${episodeDesc}]]></itunes:summary>\n      <pubDate>${pubDate}</pubDate>\n      <enclosure url="${audioUrl}" type="audio/mpeg" length="${size}"/>\n      <guid isPermaLink="false">${file.id}</guid>\n      <itunes:title>${episodeTitle}</itunes:title>\n      <itunes:episodeType>full</itunes:episodeType>\n      <itunes:duration>${formatDuration(durationSecs)}</itunes:duration>\n      <itunes:explicit>false</itunes:explicit>\n    </item>\n`;
   });
 
   xml += `  </channel>\n</rss>`;
