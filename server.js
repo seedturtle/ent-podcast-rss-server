@@ -158,18 +158,38 @@ app.get('/audio/:fileId', async (req, res) => {
       fields: 'name,mimeType,size'
     });
 
+    const drivePath = `/google-drive/drive/v3/files/${fileId}?alt=media`;
+    const driveHeaders = { 'Authorization': `Bearer ${MATON_KEY}` };
+
+    // Forward Range header if present (byte-range support for Apple)
+    if (req.headers.range) {
+      driveHeaders['Range'] = req.headers.range;
+    }
+
     const fileStream = https.request({
       hostname: 'gateway.maton.ai',
-      path: `/google-drive/drive/v3/files/${fileId}?alt=media`,
+      path: drivePath,
       method: 'GET',
-      headers: { 'Authorization': `Bearer ${MATON_KEY}` }
+      headers: driveHeaders
     }, (drivesRes) => {
-      res.set({
+      const statusCode = drivesRes.statusCode || 200;
+      const headers = {
         'Content-Type': 'audio/mpeg',
-        'Content-Length': drivesRes.headers['content-length'] || file.size || 0,
         'Accept-Ranges': 'bytes',
         'Cache-Control': 'public, max-age=86400'
-      });
+      };
+
+      if (drivesRes.headers['content-length']) {
+        headers['Content-Length'] = drivesRes.headers['content-length'];
+      } else if (file.size) {
+        headers['Content-Length'] = file.size;
+      }
+
+      if (drivesRes.headers['content-range']) {
+        headers['Content-Range'] = drivesRes.headers['content-range'];
+      }
+
+      res.status(statusCode).set(headers);
       drivesRes.pipe(res);
     });
 
@@ -222,7 +242,7 @@ function cleanText(text) {
 
 // ========== RSS XML Generation ==========
 function generateRSS(files) {
-  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:subtitle>${SHOW.subtitle}</itunes:subtitle>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:type>episodic</itunes:type>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>false</itunes:explicit>\n    <itunes:category text="Science"/>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
+  let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n  <channel>\n    <title><![CDATA[${SHOW.title}]]></title>\n    <link>${SHOW.link}</link>\n    <description><![CDATA[${SHOW.description}]]></description>\n    <language>${SHOW.language}</language>\n    <copyright>${SHOW.copyright}</copyright>\n    <itunes:author>${SHOW.author}</itunes:author>\n    <itunes:subtitle>${SHOW.subtitle}</itunes:subtitle>\n    <itunes:summary><![CDATA[${SHOW.description}]]></itunes:summary>\n    <itunes:type>episodic</itunes:type>\n    <itunes:owner>\n      <itunes:name>${SHOW.ownerName}</itunes:name>\n      <itunes:email>${SHOW.email}</itunes:email>\n    </itunes:owner>\n    <itunes:explicit>false</itunes:explicit>\n    <itunes:category text="Science"/>\n    <itunes:category text="Health &amp; Fitness"/>\n    <atom:link href="${FEED_BASE_URL}/feed.xml" rel="self" type="application/rss+xml"/>\n`;
 
   if (SHOW.imageUrl) {
     const imgUrl = SHOW.imageUrl.replace(/&/g, '&amp;');
