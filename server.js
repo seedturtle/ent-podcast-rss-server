@@ -108,7 +108,7 @@ function uploadFileToDrive(localFilePath, remoteFileName) {
 
       const options = {
         hostname: 'gateway.maton.ai',
-        path: '/google-drive/drive/v3/files?uploadType=multipart',
+        path: '/google-drive/upload/drive/v3/files?uploadType=multipart',
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${MATON_KEY}`,
@@ -183,14 +183,18 @@ app.get('/audio/:fileId', async (req, res) => {
         'Cache-Control': 'public, max-age=86400'
       };
 
-      if (drivesRes.headers['content-length']) {
+      // Forward Content-Range for 206 partial responses (Apple Podcast uses byte-range seeking)
+      if (drivesRes.headers['content-range']) {
+        headers['Content-Range'] = drivesRes.headers['content-range'];
+        // Calculate proper Content-Length from Content-Range when Maton doesn't return it
+        const rangeMatch = drivesRes.headers['content-range'].match(/bytes\s+(\d+)-(\d+)/);
+        if (rangeMatch) {
+          headers['Content-Length'] = (parseInt(rangeMatch[2]) - parseInt(rangeMatch[1]) + 1).toString();
+        }
+      } else if (drivesRes.headers['content-length']) {
         headers['Content-Length'] = drivesRes.headers['content-length'];
       } else if (file.size) {
         headers['Content-Length'] = file.size;
-      }
-
-      if (drivesRes.headers['content-range']) {
-        headers['Content-Range'] = drivesRes.headers['content-range'];
       }
 
       res.status(statusCode).set(headers);
