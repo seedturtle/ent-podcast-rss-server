@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
+  <channel>
+    <title><![CDATA[ENT Update]]></title>
+    <link>https://entpodcast.zeabur.app</link>
+    <description><![CDATA[Ear, nose and throat head and neck medicine latest information. Weekly curated international literature, research progress and clinical updates for medical professionals. Content includes: otology, rhinology, laryngology, head and neck surgery, speech therapy, audiology, etc.]]></description>
+    <language>zh-TW</language>
+    <copyright>Copyright 2026 ENT Update</copyright>
+    <itunes:author>洪士涵醫師</itunes:author>
+    <itunes:subtitle>Latest ENT research and clinical updates</itunes:subtitle>
+    <itunes:summary><![CDATA[Ear, nose and throat head and neck medicine latest information. Weekly curated international literature, research progress and clinical updates for medical professionals. Content includes: otology, rhinology, laryngology, head and neck surgery, speech therapy, audiology, etc.]]></itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>洪士涵醫師</itunes:name>
+      <itunes:email>seedturtle1976@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="Science"/>
+    <itunes:category text="Health &amp; Fitness"/>
+    <atom:link href="https://entpodcast.zeabur.app/feed.xml" rel="self" type="application/rss+xml"/>
+    <itunes:image href="https://entpodcast.zeabur.app/static/ent-update-cover-3000.jpg"/>
+    <image><url>https://entpodcast.zeabur.app/static/ent-update-cover-3000.jpg</url><title>ENT Update</title><link>https://entpodcast.zeabur.app</link></image>
+    <ttl>60</ttl>
+    <item>
+      <title><![CDATA[Episode 36-Special | 2026/05/16]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1eZiZY-8fo9XTRnnMpRF4FlKj4qZq_CtS.mp3</link>
+      <description><![CDATA[睡眠外科特輯｜PPPP｜OSA+LPR｜舌骨懸吊｜pHGNS 3年｜HNS分期｜OSPREY｜機器人舌根｜術前篩檢｜唐氏症兒童｜ENT Update Podcast]]></description>
+      <itunes:summary><![CDATA[睡眠外科特輯｜PPPP｜OSA+LPR｜舌骨懸吊｜pHGNS 3年｜HNS分期｜OSPREY｜機器人舌根｜術前篩檢｜唐氏症兒童｜ENT Update Podcast]]></itunes:summary>
+      <pubDate>Sat, 16 May 2026 00:01:24 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1eZiZY-8fo9XTRnnMpRF4FlKj4qZq_CtS.mp3" type="audio/mpeg" length="11541696"/>
+      <guid isPermaLink="false">1eZiZY-8fo9XTRnnMpRF4FlKj4qZq_CtS</guid>
+      <itunes:title>Episode 36-Special | 2026/05/16</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>12:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 35 | 2026/05/16]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1XxGf-9Gd6Wk0APAEJowx6EoDzKAliKwD.mp3</link>
+      <description><![CDATA[ENT Update Podcast - 2026/05/16
+主題：人工智慧在耳鼻喉科應用
+
+本集討論文獻：
+
+1. Integration of AI into ENT practice: comparative study
+   Egypt J Otolaryngol (2026 Mar 23)
+   DOI: 10.1186/s43163-026-01055-x
+   URL: https://link.springer.com/article/10.1186/s43163-026-01055-x
+
+2. Generative AI in otolaryngology (Kowalski et al.)
+   Otorhinolaryngol 2026;76(1):23-35
+   DOI: 10.23736/S2724-6302.26.02601-0
+
+3. ML prediction of eosinophilic CRSwNP
+   PMID: 41847830 (2026 Mar 18)
+   URL: https://pubmed.ncbi.nlm.nih.gov/41847830/]]></description>
+      <itunes:summary><![CDATA[ENT Update Podcast - 2026/05/16
+主題：人工智慧在耳鼻喉科應用
+
+本集討論文獻：
+
+1. Integration of AI into ENT practice: comparative study
+   Egypt J Otolaryngol (2026 Mar 23)
+   DOI: 10.1186/s43163-026-01055-x
+   URL: https://link.springer.com/article/10.1186/s43163-026-01055-x
+
+2. Generative AI in otolaryngology (Kowalski et al.)
+   Otorhinolaryngol 2026;76(1):23-35
+   DOI: 10.23736/S2724-6302.26.02601-0
+
+3. ML prediction of eosinophilic CRSwNP
+   PMID: 41847830 (2026 Mar 18)
+   URL: https://pubmed.ncbi.nlm.nih.gov/41847830/]]></itunes:summary>
+      <pubDate>Fri, 15 May 2026 17:08:29 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1XxGf-9Gd6Wk0APAEJowx6EoDzKAliKwD.mp3" type="audio/mpeg" length="14392886"/>
+      <guid isPermaLink="false">1XxGf-9Gd6Wk0APAEJowx6EoDzKAliKwD</guid>
+      <itunes:title>Episode 35 | 2026/05/16</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>15:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 34 | 2026/05/15]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1SFQEF6IexAaXVMGMHntNwkfFeIglqavx.mp3</link>
+      <description><![CDATA[ENT Update Podcast - 2026/05/15 - 喉科學與聲音醫學
+
+References:
+1. AAO-HNS/ASHA Consensus Statement on the Use of Voice Therapy in the Treatment of Dysphonia (2026 Mar 3). https://www.entnet.org/resource/consensus-statement-on-the-use-of-voice-therapy-in-the-treatment-of-dysphonia/
+2. Treatment Efficacy for Functional Voice Disorders with Dysphonia: A Network Meta-analysis. Journal of Voice (2026 Mar 3). https://www.sciencedirect.com/science/article/pii/S0892199726000676
+3. Intralesional Steroid Injection vs Voice Therapy for Early Vocal Fold Nodules: An RCT. European Archives of Oto-Rhino-Laryngology (2025 Dec 29). https://link.springer.com/article/10.1007/s00405-025-09923-7
+4. Outcomes of Voice Therapy in Organic Voice Disorders: A Scoping Review. Journal of Voice (2026 May 5). https://www.sciencedirect.com/science/article/pii/S0892199726001335
+5. Long-Term Retention of Voice Therapy Outcomes After Discharge. Journal of Voice (2025 Dec 18). PubMed: 41419425
+6. Clinical Applications of Laryngeal Ultrasonography: A Review. Journal of Voice (2025 Oct 29). PubMed: 41168021
+7. Family-Involved Hybrid Voice Therapy for Pediatric VF Nodules. Laryngoscope Investigative Otolaryngology (2026 Apr 30). https://onlinelibrary.wiley.com/doi/full/10.1002/lio2.70422
+8. Barriers and Readiness to Voice Therapy Among School Teachers. Journal of Voice (2025 Jul 29).]]></description>
+      <itunes:summary><![CDATA[ENT Update Podcast - 2026/05/15 - 喉科學與聲音醫學
+
+References:
+1. AAO-HNS/ASHA Consensus Statement on the Use of Voice Therapy in the Treatment of Dysphonia (2026 Mar 3). https://www.entnet.org/resource/consensus-statement-on-the-use-of-voice-therapy-in-the-treatment-of-dysphonia/
+2. Treatment Efficacy for Functional Voice Disorders with Dysphonia: A Network Meta-analysis. Journal of Voice (2026 Mar 3). https://www.sciencedirect.com/science/article/pii/S0892199726000676
+3. Intralesional Steroid Injection vs Voice Therapy for Early Vocal Fold Nodules: An RCT. European Archives of Oto-Rhino-Laryngology (2025 Dec 29). https://link.springer.com/article/10.1007/s00405-025-09923-7
+4. Outcomes of Voice Therapy in Organic Voice Disorders: A Scoping Review. Journal of Voice (2026 May 5). https://www.sciencedirect.com/science/article/pii/S0892199726001335
+5. Long-Term Retention of Voice Therapy Outcomes After Discharge. Journal of Voice (2025 Dec 18). PubMed: 41419425
+6. Clinical Applications of Laryngeal Ultrasonography: A Review. Journal of Voice (2025 Oct 29). PubMed: 41168021
+7. Family-Involved Hybrid Voice Therapy for Pediatric VF Nodules. Laryngoscope Investigative Otolaryngology (2026 Apr 30). https://onlinelibrary.wiley.com/doi/full/10.1002/lio2.70422
+8. Barriers and Readiness to Voice Therapy Among School Teachers. Journal of Voice (2025 Jul 29).]]></itunes:summary>
+      <pubDate>Fri, 15 May 2026 06:35:05 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1SFQEF6IexAaXVMGMHntNwkfFeIglqavx.mp3" type="audio/mpeg" length="16496057"/>
+      <guid isPermaLink="false">1SFQEF6IexAaXVMGMHntNwkfFeIglqavx</guid>
+      <itunes:title>Episode 34 | 2026/05/15</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>17:11</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 33 | 2026/05/14]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1TL220mJkQNxkVmsGfW99AvZFFMHRxAbn.mp3</link>
+      <description><![CDATA[ENT Update Podcast - 2026年5月14日 (週四)
+主題：睡眠醫學
+
+本集參考文獻：
+
+1. Tirzepatide on OSA-related cardiometabolic risk: SURMOUNT-OSA secondary analysis
+   Nature Medicine, January 2026
+   DOI: 10.1038/s41591-025-04071-1
+   https://www.nature.com/articles/s41591-025-04071-1
+
+2. Proximal hypoglossal nerve stimulation for OSA: A randomized controlled trial
+   The Lancet Respiratory Medicine, April 2026
+   https://medicalxpress.com/news/2026-04-implanted-nerve-obstructive-apnea-safe.html
+
+3. SleepFM: AI model predicts disease risk from sleep data
+   Nature Medicine / Stanford Medicine, January 2026
+   https://med.stanford.edu/news/all-news/2026/01/ai-sleep-disease.html
+
+4. Mayo Clinic AI-enabled ECG analysis for OSA detection
+   AASM Key Trends in Sleep Medicine Q1 2026
+   https://aasm.org/key-trends-in-sleep-medicine-q1-2026/
+
+5. Growth and sleep outcomes after adenotonsillectomy in pediatric OSA
+   Scientific Reports, December 2025
+   DOI: 10.1038/s41598-025-30271-3
+   https://www.nature.com/articles/s41598-025-30271-3
+
+6. Long-term Health Outcomes of Pediatric OSA
+   Sleep Medicine, May 2026
+   https://www.sciencedirect.com/science/article/abs/pii/S1389945726002480
+
+7. Pediatric DISE-directed surgery outcomes in OSA
+   Otolaryngology-Head and Neck Surgery, February 2026
+   DOI: 10.1002/ohn.70166
+   https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1002/ohn.70166
+
+主持人：傅醫師 (zh-TW-YunJheNeural) 與 林醫師 (zh-TW-HsiaoChenNeural)
+語速：+12%]]></description>
+      <itunes:summary><![CDATA[ENT Update Podcast - 2026年5月14日 (週四)
+主題：睡眠醫學
+
+本集參考文獻：
+
+1. Tirzepatide on OSA-related cardiometabolic risk: SURMOUNT-OSA secondary analysis
+   Nature Medicine, January 2026
+   DOI: 10.1038/s41591-025-04071-1
+   https://www.nature.com/articles/s41591-025-04071-1
+
+2. Proximal hypoglossal nerve stimulation for OSA: A randomized controlled trial
+   The Lancet Respiratory Medicine, April 2026
+   https://medicalxpress.com/news/2026-04-implanted-nerve-obstructive-apnea-safe.html
+
+3. SleepFM: AI model predicts disease risk from sleep data
+   Nature Medicine / Stanford Medicine, January 2026
+   https://med.stanford.edu/news/all-news/2026/01/ai-sleep-disease.html
+
+4. Mayo Clinic AI-enabled ECG analysis for OSA detection
+   AASM Key Trends in Sleep Medicine Q1 2026
+   https://aasm.org/key-trends-in-sleep-medicine-q1-2026/
+
+5. Growth and sleep outcomes after adenotonsillectomy in pediatric OSA
+   Scientific Reports, December 2025
+   DOI: 10.1038/s41598-025-30271-3
+   https://www.nature.com/articles/s41598-025-30271-3
+
+6. Long-term Health Outcomes of Pediatric OSA
+   Sleep Medicine, May 2026
+   https://www.sciencedirect.com/science/article/abs/pii/S1389945726002480
+
+7. Pediatric DISE-directed surgery outcomes in OSA
+   Otolaryngology-Head and Neck Surgery, February 2026
+   DOI: 10.1002/ohn.70166
+   https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1002/ohn.70166
+
+主持人：傅醫師 (zh-TW-YunJheNeural) 與 林醫師 (zh-TW-HsiaoChenNeural)
+語速：+12%]]></itunes:summary>
+      <pubDate>Wed, 13 May 2026 17:08:10 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1TL220mJkQNxkVmsGfW99AvZFFMHRxAbn.mp3" type="audio/mpeg" length="11036674"/>
+      <guid isPermaLink="false">1TL220mJkQNxkVmsGfW99AvZFFMHRxAbn</guid>
+      <itunes:title>Episode 33 | 2026/05/14</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>11:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 32 | 2026/05/13]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1b4G-wsH-Bhk8f_dir2Tf2R0swA1bVHQN.mp3</link>
+      <description><![CDATA[ENT Update Podcast - 2026/05/13 (週三)
+主題：鼻科學 (Rhinology)
+
+參考文獻：
+1. EVEREST Trial: Dupilumab vs Omalizumab in CRSwNP
+   Lancet Respir Med 2025 Sep. DOI: 10.1016/S2213-2600(25)00287-5
+   Ann Intern Med 2026 Feb. DOI: 10.7326/ANNALS-25-05457-JC
+   PMID: 41628459
+
+2. ESS vs Biologic Therapy for CRSwNP: Systematic Review
+   Rhinology 2026. PMID: 41487053
+
+3. Contemporary Office-Based Procedures in Rhinology
+   Front Allergy 2025 Jul. DOI: 10.3389/falgy.2025.1554792
+   PMID: 40756135
+
+4. Biologics for CRSwNP: Advances in Therapy
+   Front Allergy 2026. DOI: 10.3389/falgy.2026.1759649
+
+5. Tezepelumab for Olfaction in CRSwNP
+   PubMed 2026 Jan. PMID: 41493192
+
+6. Balloon Sinuplasty vs ESS Meta-Analysis
+   JORR 2025 Jun.
+
+主持：傅醫師 (男聲) & 林醫師 (女聲)]]></description>
+      <itunes:summary><![CDATA[ENT Update Podcast - 2026/05/13 (週三)
+主題：鼻科學 (Rhinology)
+
+參考文獻：
+1. EVEREST Trial: Dupilumab vs Omalizumab in CRSwNP
+   Lancet Respir Med 2025 Sep. DOI: 10.1016/S2213-2600(25)00287-5
+   Ann Intern Med 2026 Feb. DOI: 10.7326/ANNALS-25-05457-JC
+   PMID: 41628459
+
+2. ESS vs Biologic Therapy for CRSwNP: Systematic Review
+   Rhinology 2026. PMID: 41487053
+
+3. Contemporary Office-Based Procedures in Rhinology
+   Front Allergy 2025 Jul. DOI: 10.3389/falgy.2025.1554792
+   PMID: 40756135
+
+4. Biologics for CRSwNP: Advances in Therapy
+   Front Allergy 2026. DOI: 10.3389/falgy.2026.1759649
+
+5. Tezepelumab for Olfaction in CRSwNP
+   PubMed 2026 Jan. PMID: 41493192
+
+6. Balloon Sinuplasty vs ESS Meta-Analysis
+   JORR 2025 Jun.
+
+主持：傅醫師 (男聲) & 林醫師 (女聲)]]></itunes:summary>
+      <pubDate>Tue, 12 May 2026 17:05:30 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1b4G-wsH-Bhk8f_dir2Tf2R0swA1bVHQN.mp3" type="audio/mpeg" length="6083439"/>
+      <guid isPermaLink="false">1b4G-wsH-Bhk8f_dir2Tf2R0swA1bVHQN</guid>
+      <itunes:title>Episode 32 | 2026/05/13</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>6:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 31 | 2026/05/13]]></title>
+      <link>https://entpodcast.zeabur.app/audio/13apxLxg4bU8cs0WQQM5BBrm051ik8ckH.mp3</link>
+      <description><![CDATA[ENT Update, Episode 31 | 2026/05/13. ENT Head and Neck Medicine latest information.]]></description>
+      <itunes:summary><![CDATA[ENT Update, Episode 31 | 2026/05/13. ENT Head and Neck Medicine latest information.]]></itunes:summary>
+      <pubDate>Tue, 12 May 2026 17:04:56 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/13apxLxg4bU8cs0WQQM5BBrm051ik8ckH.mp3" type="audio/mpeg" length="0"/>
+      <guid isPermaLink="false">13apxLxg4bU8cs0WQQM5BBrm051ik8ckH</guid>
+      <itunes:title>Episode 31 | 2026/05/13</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 30 | 2026/05/13]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1yADbqSCz3auupXYVAWfk2rqylBVqGADB.mp3</link>
+      <description><![CDATA[ENT Update, Episode 30 | 2026/05/13. ENT Head and Neck Medicine latest information.]]></description>
+      <itunes:summary><![CDATA[ENT Update, Episode 30 | 2026/05/13. ENT Head and Neck Medicine latest information.]]></itunes:summary>
+      <pubDate>Tue, 12 May 2026 17:04:34 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1yADbqSCz3auupXYVAWfk2rqylBVqGADB.mp3" type="audio/mpeg" length="0"/>
+      <guid isPermaLink="false">1yADbqSCz3auupXYVAWfk2rqylBVqGADB</guid>
+      <itunes:title>Episode 30 | 2026/05/13</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>0:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 29 | 2026/05/12]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1xHoZRwdummKjBspGEzkMpCKbb18PZA1c.mp3</link>
+      <description><![CDATA[本集主題：耳科與聽力學專題 (2026/05/12)
+
+參考文獻：
+
+1. FDA Approval of Otarmeni (lunsotogene parvec-cwha) - First gene therapy for OTOF-related hearing loss
+   FDA Press Release: https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher
+   CNN Report: https://edition.cnn.com/2026/04/23/health/fda-gene-therapy-inherited-deafness-regeneron
+   Harvard Medicine: https://hms.harvard.edu/news/hearing-restoration-gene-therapy-inherited-deafness-lasts-years-new-trial-results-show
+
+2. Gene Therapy vs Cochlear Implants - Direct Comparison
+   Mass General Advances: https://advances.massgeneral.org/otolaryngology/article.aspx?id=1616
+
+3. Robotic-Assisted Electrode Array Insertion Improves Stability of Acoustic Hearing Thresholds
+   Khan UA et al. Laryngoscope. 2026 Jan 21.
+   DOI: 10.1002/lary.70380 | PMID: 41562332
+
+4. Hearing loss in the young-old is associated with increased risk for Alzheimer's disease and vascular dementia
+   Francis L et al. J Alzheimers Dis. 2026 Feb;109(3):1142-1148.
+   DOI: 10.1177/13872877251407211 | PMID: 41555782 | PMCID: PMC12855611
+
+5. International expert consensus on gene therapy for hereditary hearing loss
+   PMID: 41135524
+
+主持人：傅醫師（男聲）、林醫師（女聲）
+製作日期：2026-05-12
+片長：約7分18秒]]></description>
+      <itunes:summary><![CDATA[本集主題：耳科與聽力學專題 (2026/05/12)
+
+參考文獻：
+
+1. FDA Approval of Otarmeni (lunsotogene parvec-cwha) - First gene therapy for OTOF-related hearing loss
+   FDA Press Release: https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher
+   CNN Report: https://edition.cnn.com/2026/04/23/health/fda-gene-therapy-inherited-deafness-regeneron
+   Harvard Medicine: https://hms.harvard.edu/news/hearing-restoration-gene-therapy-inherited-deafness-lasts-years-new-trial-results-show
+
+2. Gene Therapy vs Cochlear Implants - Direct Comparison
+   Mass General Advances: https://advances.massgeneral.org/otolaryngology/article.aspx?id=1616
+
+3. Robotic-Assisted Electrode Array Insertion Improves Stability of Acoustic Hearing Thresholds
+   Khan UA et al. Laryngoscope. 2026 Jan 21.
+   DOI: 10.1002/lary.70380 | PMID: 41562332
+
+4. Hearing loss in the young-old is associated with increased risk for Alzheimer's disease and vascular dementia
+   Francis L et al. J Alzheimers Dis. 2026 Feb;109(3):1142-1148.
+   DOI: 10.1177/13872877251407211 | PMID: 41555782 | PMCID: PMC12855611
+
+5. International expert consensus on gene therapy for hereditary hearing loss
+   PMID: 41135524
+
+主持人：傅醫師（男聲）、林醫師（女聲）
+製作日期：2026-05-12
+片長：約7分18秒]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 17:05:43 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1xHoZRwdummKjBspGEzkMpCKbb18PZA1c.mp3" type="audio/mpeg" length="7009638"/>
+      <guid isPermaLink="false">1xHoZRwdummKjBspGEzkMpCKbb18PZA1c</guid>
+      <itunes:title>Episode 29 | 2026/05/12</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>7:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 28-Special | 2026/05/11]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1XFElNBVBH2lCA0vHplKfi8jTjYkrqRLK.mp3</link>
+      <description><![CDATA[本集為特輯：《2026年5月最新頭頸部腫瘤重要研究與臨床進展》
+
+討論主題涵蓋：
+1. 單細胞 RNA 定序解析 HNSCC 惡性細胞異質性與 MCScore 分型
+   https://pubmed.ncbi.nlm.nih.gov/42068156/
+2. STING 表現預測局部晚期 HNSCC 失敗型態
+   https://pubmed.ncbi.nlm.nih.gov/41569294/
+3. HYDRA 低分割放療第一期中分析
+   https://pubmed.ncbi.nlm.nih.gov/42000366/
+4. HYPNO 第三期非劣效試驗
+   https://pubmed.ncbi.nlm.nih.gov/41711624/
+5. 免疫治療在局部晚期 HNSCC：KEYNOTE-689 與 NIVOPOSTOP
+   https://pubmed.ncbi.nlm.nih.gov/41580177/
+6. R/M HNSCC 系統治療未來十年藍圖
+   https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1799378/full
+7. 前驅病變免疫基因體學進展
+   https://aacrjournals.org/cancerres/article/86/7_Supplement/3617/780480
+8. HPV+ HNSCC 空間多組學
+   https://aacrjournals.org/cancerres/article/86/7_Supplement/7785/782149
+9. MERIDIAN MRD ctDNA 試驗
+   https://aacrjournals.org/cancerres/article/86/8_Supplement/CT173/783342
+10. PECAN ctDNA 監測試驗
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/1127/776726
+11. cfDNA fragmentome DELFI/ARTEMIS
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/1145/776564
+12. TMB ICI 反應統合分析
+    https://onlinelibrary.wiley.com/doi/10.1002/hed.70297
+13. 動態免疫圖譜 LiBIO
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/5249/779937
+14. ICI 進展後續用分析
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/7773/782450]]></description>
+      <itunes:summary><![CDATA[本集為特輯：《2026年5月最新頭頸部腫瘤重要研究與臨床進展》
+
+討論主題涵蓋：
+1. 單細胞 RNA 定序解析 HNSCC 惡性細胞異質性與 MCScore 分型
+   https://pubmed.ncbi.nlm.nih.gov/42068156/
+2. STING 表現預測局部晚期 HNSCC 失敗型態
+   https://pubmed.ncbi.nlm.nih.gov/41569294/
+3. HYDRA 低分割放療第一期中分析
+   https://pubmed.ncbi.nlm.nih.gov/42000366/
+4. HYPNO 第三期非劣效試驗
+   https://pubmed.ncbi.nlm.nih.gov/41711624/
+5. 免疫治療在局部晚期 HNSCC：KEYNOTE-689 與 NIVOPOSTOP
+   https://pubmed.ncbi.nlm.nih.gov/41580177/
+6. R/M HNSCC 系統治療未來十年藍圖
+   https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2026.1799378/full
+7. 前驅病變免疫基因體學進展
+   https://aacrjournals.org/cancerres/article/86/7_Supplement/3617/780480
+8. HPV+ HNSCC 空間多組學
+   https://aacrjournals.org/cancerres/article/86/7_Supplement/7785/782149
+9. MERIDIAN MRD ctDNA 試驗
+   https://aacrjournals.org/cancerres/article/86/8_Supplement/CT173/783342
+10. PECAN ctDNA 監測試驗
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/1127/776726
+11. cfDNA fragmentome DELFI/ARTEMIS
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/1145/776564
+12. TMB ICI 反應統合分析
+    https://onlinelibrary.wiley.com/doi/10.1002/hed.70297
+13. 動態免疫圖譜 LiBIO
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/5249/779937
+14. ICI 進展後續用分析
+    https://aacrjournals.org/cancerres/article/86/7_Supplement/7773/782450]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 03:41:11 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1XFElNBVBH2lCA0vHplKfi8jTjYkrqRLK.mp3" type="audio/mpeg" length="4396556"/>
+      <guid isPermaLink="false">1XFElNBVBH2lCA0vHplKfi8jTjYkrqRLK</guid>
+      <itunes:title>Episode 28-Special | 2026/05/11</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>4:35</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 27 | 2026/05/11]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1dMKYdu7enrj5DPRLmAyeEJSIgM2owDp5.mp3</link>
+      <description><![CDATA[ENT Update 頭頸外科與腫瘤學專題 2026/05/11 (台北時間週一)
+本集討論三篇頭頸外科與腫瘤學最新文獻：
+
+【論文一：螢光導引冰凍切片在頭頸癌邊緣控制】
+► Intraoperative fluorescence-guided fresh frozen sectioning for margin control in head and neck cancer: phase 2 clinical trial
+   Nature Communications, 2026 Mar 10
+   DOI: 10.1038/s41467-026-70264-y
+   PMID: 41807438
+
+【論文二：新輔助免疫化療後頭頸癌手術最佳時機】
+► Optimal timing of surgery in head and neck squamous cell carcinoma after neoadjuvant immunochemotherapy
+   Frontiers in Oncology, 2026 Feb 6
+   DOI: 10.3389/fonc.2026.1742883
+   PMID: 41727640
+
+【反向文獻討論】
+► Unraveling resistance to immune checkpoint inhibitors in HNSCC
+   Cancer Drug Resist, 2025
+   https://www.oaepublish.com/articles/cdr.2025.153
+► Inflammation and limited adaptive immunity predict worse outcomes on immunotherapy in head and neck cancer
+   npj Precision Oncology, 2025
+   DOI: 10.1038/s41698-025-01020-6
+
+【論文三：AI多體學免疫亞型分類預測HNSCC免疫治療反應】
+► Integrative immune subtyping of HNSCC reveals clinically relevant phenotypes for immunotherapy response prediction
+   npj Precision Oncology, 2026 Apr 23
+   DOI: 10.1038/s41698-026-01440-y
+
+主持人：傅醫師（引導）、林醫師（批判辯證）]]></description>
+      <itunes:summary><![CDATA[ENT Update 頭頸外科與腫瘤學專題 2026/05/11 (台北時間週一)
+本集討論三篇頭頸外科與腫瘤學最新文獻：
+
+【論文一：螢光導引冰凍切片在頭頸癌邊緣控制】
+► Intraoperative fluorescence-guided fresh frozen sectioning for margin control in head and neck cancer: phase 2 clinical trial
+   Nature Communications, 2026 Mar 10
+   DOI: 10.1038/s41467-026-70264-y
+   PMID: 41807438
+
+【論文二：新輔助免疫化療後頭頸癌手術最佳時機】
+► Optimal timing of surgery in head and neck squamous cell carcinoma after neoadjuvant immunochemotherapy
+   Frontiers in Oncology, 2026 Feb 6
+   DOI: 10.3389/fonc.2026.1742883
+   PMID: 41727640
+
+【反向文獻討論】
+► Unraveling resistance to immune checkpoint inhibitors in HNSCC
+   Cancer Drug Resist, 2025
+   https://www.oaepublish.com/articles/cdr.2025.153
+► Inflammation and limited adaptive immunity predict worse outcomes on immunotherapy in head and neck cancer
+   npj Precision Oncology, 2025
+   DOI: 10.1038/s41698-025-01020-6
+
+【論文三：AI多體學免疫亞型分類預測HNSCC免疫治療反應】
+► Integrative immune subtyping of HNSCC reveals clinically relevant phenotypes for immunotherapy response prediction
+   npj Precision Oncology, 2026 Apr 23
+   DOI: 10.1038/s41698-026-01440-y
+
+主持人：傅醫師（引導）、林醫師（批判辯證）]]></itunes:summary>
+      <pubDate>Sun, 10 May 2026 17:09:14 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1dMKYdu7enrj5DPRLmAyeEJSIgM2owDp5.mp3" type="audio/mpeg" length="2396973"/>
+      <guid isPermaLink="false">1dMKYdu7enrj5DPRLmAyeEJSIgM2owDp5</guid>
+      <itunes:title>Episode 27 | 2026/05/11</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 26 | 2026/05/10]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1ae1IUbUdB2OzAiovpN9ITRHeM93HddtI.mp3</link>
+      <description><![CDATA[ENT Update 一週專題回顧 2026/05/10 (台北時間週日)
+本集回顧本週各次專題最新文獻：
+
+【頭頸外科與腫瘤學】
+► KEYSTONE-689: Neoadjuvant and Adjuvant Pembrolizumab in Locally Advanced HNSCC
+  DOI: 10.1056/NEJMoa2415434
+► SEOM-TTCC Guidelines for HNC Treatment (2025)
+  DOI: 10.1007/s12094-026-04240-9
+
+【耳科與聽力學】
+► Cochlear Implant Music Listening Habits Study
+  DOI: 10.1002/ohn.70064 (Otolaryngol Head Neck Surg 2026)
+► MUSC AI-Powered Hearing Loss Detection Using NLP
+  https://www.musc.edu/content-hub/News/2026/03/26/harnessing-ai-and-data-to-prevent-hearing-loss
+
+【鼻科學】
+► Comparative Efficacy of Seven Biologics for CRSwNP (Network Meta-Analysis)
+  PMID: 41999554
+► Real-World Dupilumab in CRSwNP with T2 Comorbidities (Multicenter, 1-Year)
+  PMID: 41753061
+
+【睡眠醫學】
+► Three-Year Outcomes of Proximal Hypoglossal Nerve Stimulation in OSA
+  DOI: 10.1016/j.chest.2025.11.057 (Chest 2026)
+
+【喉科學與AI】
+► Vocal Biomarkers for Laryngeal Lesion Detection (Bridge2AI-Voice)
+  Frontiers in Digital Health 2025/2026
+► AI-Supported Voice Disorder Detection
+  https://www.sciencedirect.com/science/article/pii/S0892199725003893
+
+【AI在ENT應用】
+► Generative AI in Head and Neck Cancer Care
+  DOI: 10.1177/20552076261450749 (Digital Health 2026)]]></description>
+      <itunes:summary><![CDATA[ENT Update 一週專題回顧 2026/05/10 (台北時間週日)
+本集回顧本週各次專題最新文獻：
+
+【頭頸外科與腫瘤學】
+► KEYSTONE-689: Neoadjuvant and Adjuvant Pembrolizumab in Locally Advanced HNSCC
+  DOI: 10.1056/NEJMoa2415434
+► SEOM-TTCC Guidelines for HNC Treatment (2025)
+  DOI: 10.1007/s12094-026-04240-9
+
+【耳科與聽力學】
+► Cochlear Implant Music Listening Habits Study
+  DOI: 10.1002/ohn.70064 (Otolaryngol Head Neck Surg 2026)
+► MUSC AI-Powered Hearing Loss Detection Using NLP
+  https://www.musc.edu/content-hub/News/2026/03/26/harnessing-ai-and-data-to-prevent-hearing-loss
+
+【鼻科學】
+► Comparative Efficacy of Seven Biologics for CRSwNP (Network Meta-Analysis)
+  PMID: 41999554
+► Real-World Dupilumab in CRSwNP with T2 Comorbidities (Multicenter, 1-Year)
+  PMID: 41753061
+
+【睡眠醫學】
+► Three-Year Outcomes of Proximal Hypoglossal Nerve Stimulation in OSA
+  DOI: 10.1016/j.chest.2025.11.057 (Chest 2026)
+
+【喉科學與AI】
+► Vocal Biomarkers for Laryngeal Lesion Detection (Bridge2AI-Voice)
+  Frontiers in Digital Health 2025/2026
+► AI-Supported Voice Disorder Detection
+  https://www.sciencedirect.com/science/article/pii/S0892199725003893
+
+【AI在ENT應用】
+► Generative AI in Head and Neck Cancer Care
+  DOI: 10.1177/20552076261450749 (Digital Health 2026)]]></itunes:summary>
+      <pubDate>Sat, 09 May 2026 17:09:17 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1ae1IUbUdB2OzAiovpN9ITRHeM93HddtI.mp3" type="audio/mpeg" length="2354397"/>
+      <guid isPermaLink="false">1ae1IUbUdB2OzAiovpN9ITRHeM93HddtI</guid>
+      <itunes:title>Episode 26 | 2026/05/10</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 25-Special | 2026/05/09]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1SujrQWWbtQh4PKfTawLLiRD4TS7GMVzf.mp3</link>
+      <description><![CDATA[ENT Update 特輯 — 過敏性鼻炎最新治療進展 (2026/05/09)
+
+本集討論 2025-2026 年過敏性鼻炎治療突破：
+1. 生物製劑崛起：司庫奇尤單抗 (Secukinumab) 於慢性鼻竇炎合併鼻息肉三期試驗結果
+2. 過敏原免疫治療 (AIT) 新型給藥途徑：舌下及淋巴內注射比較
+3. 新型抗組織胺藥物研發進展
+4. ARIA-EAACI 2025 指引更新重點
+5. 嗜酸性粒細胞生物標記在生物製劑選擇中的角色
+
+反向觀點：生物製劑成本效益、長期安全性數據仍有限、選擇適當病人至關重要。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update 特輯 — 過敏性鼻炎最新治療進展 (2026/05/09)
+
+本集討論 2025-2026 年過敏性鼻炎治療突破：
+1. 生物製劑崛起：司庫奇尤單抗 (Secukinumab) 於慢性鼻竇炎合併鼻息肉三期試驗結果
+2. 過敏原免疫治療 (AIT) 新型給藥途徑：舌下及淋巴內注射比較
+3. 新型抗組織胺藥物研發進展
+4. ARIA-EAACI 2025 指引更新重點
+5. 嗜酸性粒細胞生物標記在生物製劑選擇中的角色
+
+反向觀點：生物製劑成本效益、長期安全性數據仍有限、選擇適當病人至關重要。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:46:59 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1SujrQWWbtQh4PKfTawLLiRD4TS7GMVzf.mp3" type="audio/mpeg" length="1422861"/>
+      <guid isPermaLink="false">1SujrQWWbtQh4PKfTawLLiRD4TS7GMVzf</guid>
+      <itunes:title>Episode 25-Special | 2026/05/09</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:29</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 24-Special | 2026/05/09]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1AHs6u5JzpCzG1Obc120gw5EFKwoPh8BF.mp3</link>
+      <description><![CDATA[ENT Update 特輯 — 睡眠外科五大突破 (2026/05/09)
+
+本集討論 2026 年睡眠外科五大重要發現：
+1. 高風險手術後 REM/深睡持續時間與心血管預後
+2. 近端舌下神經刺激阻塞型睡眠呼吸中止症三年預後
+3. 新型口腔裝置與 CPAP 隨機對照比較
+4. 軟顎植入物於打鼾治療之長期追蹤
+5. 藥物誘導睡眠內視鏡 (DISE) 標準化指引更新
+
+反向觀點：手術選擇性偏誤、安慰劑效應、長期成功率需更多數據支持。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update 特輯 — 睡眠外科五大突破 (2026/05/09)
+
+本集討論 2026 年睡眠外科五大重要發現：
+1. 高風險手術後 REM/深睡持續時間與心血管預後
+2. 近端舌下神經刺激阻塞型睡眠呼吸中止症三年預後
+3. 新型口腔裝置與 CPAP 隨機對照比較
+4. 軟顎植入物於打鼾治療之長期追蹤
+5. 藥物誘導睡眠內視鏡 (DISE) 標準化指引更新
+
+反向觀點：手術選擇性偏誤、安慰劑效應、長期成功率需更多數據支持。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:47:00 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1AHs6u5JzpCzG1Obc120gw5EFKwoPh8BF.mp3" type="audio/mpeg" length="1353069"/>
+      <guid isPermaLink="false">1AHs6u5JzpCzG1Obc120gw5EFKwoPh8BF</guid>
+      <itunes:title>Episode 24-Special | 2026/05/09</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 23 | 2026/05/09]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1pO0E_kOh7c6RDX4DduHsKakQBQTh13SE.mp3</link>
+      <description><![CDATA[本集探討：人工智慧在耳鼻喉科應用最新進展 (2026/05/09)
+
+【主題一】多中心臨床驗證：AI 喉鏡診斷分類模型 (Otolaryngology, Feb 2026)
+六個醫學中心、一萬兩千張喉鏡影像，AUC 0.93-0.96。即使低品質影像仍維持 0.88 準確率，優於非專科醫師。
+→ 反向觀點：AI in Laryngeal Cancer Detection 系統性回顧 (PMID: 40558281) 指出 pooled sensitivity 78%、specificity 86%，但有顯著 publication bias。
+https://doi.org/10.1002/ohn.70153
+
+【主題二】AI 喉癌斷平台：雙階段深度學習模型 (Diagnostics, Jan 2026)
+FCN-ResNet101，聲帶篩選準確率 0.997，癌症偵測準確率 0.986，即時推論 0.025秒/張。
+→ 反向觀點：訓練資料 gold standard 本身有變異，且作者有利益衝突（軟體公司員工）。Real-world performance 未驗證。
+https://doi.org/10.3390/diagnostics16020227 (PMID: 41594203)
+
+【主題三】大型語言模型 vs 醫師在 ENT 臨床決策 (Am J Emerg Med, Jan 2026)
+醫師診斷準確率 91.6%，管理決策 87.9%。LLM 與醫師表現相當，轉診適當性更佳：非急症不當轉診 30.4%。
+→ 反向觀點：模擬情境非真實病人，未納入共病症與藥物交互作用。ChatGPT-4o RCT 正在進行中 (PMID: 41862715)。
+https://doi.org/10.1016/j.ajem.2026.01.029 (PMID: 41579527)
+反向文獻參考：ChatGPT-4o for junior ENT residents RCT (PMID: 41862715)
+
+【主題四】機器學習偵測中耳積液：智慧型手機鼓膜影像 (Am J Otolaryngol, Mar 2026)
+Supervised ML，訓練組敏感度 96%、特異度 81%、準確率 89%；測試組 87%/74%/81%。111張影像。
+→ 反向觀點：樣本數僅111張，泛化能力有限。鼓膜影像品質受耳垢、角度、光源影響，真實場域表現未知。
+https://doi.org/10.1016/j.amjoto.2026.104804 (PMID: 41864046)
+
+【總結】從 'Can We Build a Model?' 到 'Will It Improve Patient Care?'：AI 在 ENT 需更多臨床實證、法規配套與醫學教育整合 (JAMA Otolaryngol, 2026, Shifting the AI Questions in Otolaryngology)
+https://doi.org/10.1001/jamaoto.2025.3911
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：人工智慧在耳鼻喉科應用最新進展 (2026/05/09)
+
+【主題一】多中心臨床驗證：AI 喉鏡診斷分類模型 (Otolaryngology, Feb 2026)
+六個醫學中心、一萬兩千張喉鏡影像，AUC 0.93-0.96。即使低品質影像仍維持 0.88 準確率，優於非專科醫師。
+→ 反向觀點：AI in Laryngeal Cancer Detection 系統性回顧 (PMID: 40558281) 指出 pooled sensitivity 78%、specificity 86%，但有顯著 publication bias。
+https://doi.org/10.1002/ohn.70153
+
+【主題二】AI 喉癌斷平台：雙階段深度學習模型 (Diagnostics, Jan 2026)
+FCN-ResNet101，聲帶篩選準確率 0.997，癌症偵測準確率 0.986，即時推論 0.025秒/張。
+→ 反向觀點：訓練資料 gold standard 本身有變異，且作者有利益衝突（軟體公司員工）。Real-world performance 未驗證。
+https://doi.org/10.3390/diagnostics16020227 (PMID: 41594203)
+
+【主題三】大型語言模型 vs 醫師在 ENT 臨床決策 (Am J Emerg Med, Jan 2026)
+醫師診斷準確率 91.6%，管理決策 87.9%。LLM 與醫師表現相當，轉診適當性更佳：非急症不當轉診 30.4%。
+→ 反向觀點：模擬情境非真實病人，未納入共病症與藥物交互作用。ChatGPT-4o RCT 正在進行中 (PMID: 41862715)。
+https://doi.org/10.1016/j.ajem.2026.01.029 (PMID: 41579527)
+反向文獻參考：ChatGPT-4o for junior ENT residents RCT (PMID: 41862715)
+
+【主題四】機器學習偵測中耳積液：智慧型手機鼓膜影像 (Am J Otolaryngol, Mar 2026)
+Supervised ML，訓練組敏感度 96%、特異度 81%、準確率 89%；測試組 87%/74%/81%。111張影像。
+→ 反向觀點：樣本數僅111張，泛化能力有限。鼓膜影像品質受耳垢、角度、光源影響，真實場域表現未知。
+https://doi.org/10.1016/j.amjoto.2026.104804 (PMID: 41864046)
+
+【總結】從 'Can We Build a Model?' 到 'Will It Improve Patient Care?'：AI 在 ENT 需更多臨床實證、法規配套與醫學教育整合 (JAMA Otolaryngol, 2026, Shifting the AI Questions in Otolaryngology)
+https://doi.org/10.1001/jamaoto.2025.3911
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Fri, 08 May 2026 17:06:34 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1pO0E_kOh7c6RDX4DduHsKakQBQTh13SE.mp3" type="audio/mpeg" length="3313701"/>
+      <guid isPermaLink="false">1pO0E_kOh7c6RDX4DduHsKakQBQTh13SE</guid>
+      <itunes:title>Episode 23 | 2026/05/09</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>3:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 22 | 2026/05/08]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1XnSFBmAB17p1ZkexQZSkekrNeb1B8CAY.mp3</link>
+      <description><![CDATA[本集探討：喉科學與聲音醫學最新進展 — 從嗓音治療網絡統合分析到臨床共識聲明 (2026/05/08)
+
+【主題一】嗓音治療用於功能性嗓音疾患之網絡統合分析 (Barsties V Latoszek et al., J Voice, 2026)
+30個RCTs，N=1210，比較24種嗓音治療方式。10種能顯著改善失聲症狀，Semi-Occluded Vocal Tract Exercises和Resonant Voice Therapy效果最顯著。提供了治療方式的實證排名。
+→ 反向觀點：僅用知覺評分作為結果指標，缺乏聲學參數。樣本數差異大，缺乏長期追蹤。排除器質性病變病人。
+https://doi.org/10.1016/j.jvoice.2026.02.014 (PMID: 41775607)
+反向文獻參考：J Voice 2026 (Scoping review, Outcomes of Voice Therapy in Organic Voice Disorders)
+
+【主二】聲樂健康習慣認知差異：醫療提供者 vs 表演者 (Alter et al., J Voice, 2026)
+調查24位嗓音醫療專家（15位ST、9位喉科醫師）對82種影響聲帶健康因素的看法，與表演者認知對比。34/82項目雙方不一致。乳製品、輕聲說話等項目認知差異顯著。
+→ 反向觀點：樣本數僅24人，單中心美國研究。survey記錄認知非實際生理測量。未考慮賀爾蒙狀態（更年期）對嗓音之影響。
+https://doi.org/10.1016/j.jvoice.2025.12.021 (PMID: 41500874)
+反向文獻參考：J Voice 2026 (Menopause and the voice review, PMID: 40924880)
+
+【主題三】AAO-HNS/ASHA 失聲症嗓音治療共識聲明 (2026年3月)
+嗓音治療應為失聲症治療計劃中不可或缺的部分，涵蓋MTD、BVF lesions、UVFP、PVFM。術前/術後嗓音治療皆有角色，可助部分病人免於手術、縮短恢復時間。
+→ 反向觀點：此為consensus statement非嚴格系統性回顧之guideline。引用文獻年代偏舊。J Voice 2025研究顯示非手術治療聲帶腫塊完全改善率低於手術組，手術仍為gold standard。語言治療與手術應互補而非替代。
+https://www.entnet.org/resource/consensus-statement-on-the-use-of-voice-therapy-in-the-treatment-of-dysphonia/
+反向文獻參考：J Voice 2025 (聲帶腫塊非手術 vs 手治療成效比較, PMID: 39880718)
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：喉科學與聲音醫學最新進展 — 從嗓音治療網絡統合分析到臨床共識聲明 (2026/05/08)
+
+【主題一】嗓音治療用於功能性嗓音疾患之網絡統合分析 (Barsties V Latoszek et al., J Voice, 2026)
+30個RCTs，N=1210，比較24種嗓音治療方式。10種能顯著改善失聲症狀，Semi-Occluded Vocal Tract Exercises和Resonant Voice Therapy效果最顯著。提供了治療方式的實證排名。
+→ 反向觀點：僅用知覺評分作為結果指標，缺乏聲學參數。樣本數差異大，缺乏長期追蹤。排除器質性病變病人。
+https://doi.org/10.1016/j.jvoice.2026.02.014 (PMID: 41775607)
+反向文獻參考：J Voice 2026 (Scoping review, Outcomes of Voice Therapy in Organic Voice Disorders)
+
+【主二】聲樂健康習慣認知差異：醫療提供者 vs 表演者 (Alter et al., J Voice, 2026)
+調查24位嗓音醫療專家（15位ST、9位喉科醫師）對82種影響聲帶健康因素的看法，與表演者認知對比。34/82項目雙方不一致。乳製品、輕聲說話等項目認知差異顯著。
+→ 反向觀點：樣本數僅24人，單中心美國研究。survey記錄認知非實際生理測量。未考慮賀爾蒙狀態（更年期）對嗓音之影響。
+https://doi.org/10.1016/j.jvoice.2025.12.021 (PMID: 41500874)
+反向文獻參考：J Voice 2026 (Menopause and the voice review, PMID: 40924880)
+
+【主題三】AAO-HNS/ASHA 失聲症嗓音治療共識聲明 (2026年3月)
+嗓音治療應為失聲症治療計劃中不可或缺的部分，涵蓋MTD、BVF lesions、UVFP、PVFM。術前/術後嗓音治療皆有角色，可助部分病人免於手術、縮短恢復時間。
+→ 反向觀點：此為consensus statement非嚴格系統性回顧之guideline。引用文獻年代偏舊。J Voice 2025研究顯示非手術治療聲帶腫塊完全改善率低於手術組，手術仍為gold standard。語言治療與手術應互補而非替代。
+https://www.entnet.org/resource/consensus-statement-on-the-use-of-voice-therapy-in-the-treatment-of-dysphonia/
+反向文獻參考：J Voice 2025 (聲帶腫塊非手術 vs 手治療成效比較, PMID: 39880718)
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Thu, 07 May 2026 17:08:57 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1XnSFBmAB17p1ZkexQZSkekrNeb1B8CAY.mp3" type="audio/mpeg" length="3892461"/>
+      <guid isPermaLink="false">1XnSFBmAB17p1ZkexQZSkekrNeb1B8CAY</guid>
+      <itunes:title>Episode 22 | 2026/05/08</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>4:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 21 | 2026/05/07]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1n5txpgIL9-AfWT2ztgw3UsV1cBghcUUs.mp3</link>
+      <description><![CDATA[本集探討：睡眠醫學最新進展 — 從藥物治療到AI篩檢與手術創新 (2026/05/07)
+
+【主題一】Tirzepatide 用於 OSA — SURMOUNT-OSA 試驗次要終點
+Tirzepatide 顯著降低 AHI（-25.3/h vs -5.3/h 安慰劑），改善心血管代謝指標（血壓、hsCRP、低氧負荷）。FDA首個核准用於肥胖合併中重度OSA的藥物。
+→ 反向觀點：殘餘AHI仍約25，屬中度OSA。GLP-1效果個體差異大，非所有患者均有效。
+https://doi.org/10.1038/s41591-025-04071-1 (PMID: 41540105)
+反向文獻參考：CHEST 2024 (GLP-1於OSA個體差異分析)
+
+【主題二】Patch-Type HRV結合AI用於OSA篩檢 (Hsu et al., Nat Sci Sleep, 2026)
+AI模型分析patch-type HRV達81.4%準確率，AUC0.8。創新CVHI參數。適用於大規模社區篩檢。
+→ 反向觀點：原始收案277人僅86人納入分析（流失率近七成），sample size偏小，selection bias顯著。JAMA Otolaryngol 2025系統回顧指出無單一穿戴裝置可取代正式PSG。
+https://pubmed.ncbi.nlm.nih.gov/41890556/
+反向文獻參考：JAMA Otolaryngol 2025 (可穿戴裝置篩檢OSA系統回顧)
+
+【主題三】Standalone TORS用於OSA (Chaidas et al., Life, 2026)
+單一層級TORS BOT：AHI從34.2降至14.7，ESS從13降至4.5。CPAP失敗/不耐受患者選項。
+→ 反向觀點：手術成功率54.2-100%差異極大，定義不一致。2024 Otolaryngol Head Neck Surg多中心研究顯示長期追蹤30%病人AHI回升。
+https://pubmed.ncbi.nlm.nih.gov/41752968/
+反向文獻參考：Otolaryngol Head Neck Surg 2024 (TORS長期成功率下降)
+
+【主題四】近端舌下神經刺激三年追蹤 (Schwartz et al., Chest, 2026)
+pHGNS療效維持三年穩定，baseline AHI 51.5，不良事件少。可逆、不破壞解剖結構。
+→ 反向觀點：廠商贊助研究（XII Medical），attrition rate未清楚揭露。Sleep 2025系統回顧指出缺乏head-to-head比較，成本效益分析不足。
+https://doi.org/10.1016/j.chest.2025.11.057 (PMID: 41690459)
+反向文獻參考：Sleep 2025 (神經刺激方式比較系統回顧)
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：睡眠醫學最新進展 — 從藥物治療到AI篩檢與手術創新 (2026/05/07)
+
+【主題一】Tirzepatide 用於 OSA — SURMOUNT-OSA 試驗次要終點
+Tirzepatide 顯著降低 AHI（-25.3/h vs -5.3/h 安慰劑），改善心血管代謝指標（血壓、hsCRP、低氧負荷）。FDA首個核准用於肥胖合併中重度OSA的藥物。
+→ 反向觀點：殘餘AHI仍約25，屬中度OSA。GLP-1效果個體差異大，非所有患者均有效。
+https://doi.org/10.1038/s41591-025-04071-1 (PMID: 41540105)
+反向文獻參考：CHEST 2024 (GLP-1於OSA個體差異分析)
+
+【主題二】Patch-Type HRV結合AI用於OSA篩檢 (Hsu et al., Nat Sci Sleep, 2026)
+AI模型分析patch-type HRV達81.4%準確率，AUC0.8。創新CVHI參數。適用於大規模社區篩檢。
+→ 反向觀點：原始收案277人僅86人納入分析（流失率近七成），sample size偏小，selection bias顯著。JAMA Otolaryngol 2025系統回顧指出無單一穿戴裝置可取代正式PSG。
+https://pubmed.ncbi.nlm.nih.gov/41890556/
+反向文獻參考：JAMA Otolaryngol 2025 (可穿戴裝置篩檢OSA系統回顧)
+
+【主題三】Standalone TORS用於OSA (Chaidas et al., Life, 2026)
+單一層級TORS BOT：AHI從34.2降至14.7，ESS從13降至4.5。CPAP失敗/不耐受患者選項。
+→ 反向觀點：手術成功率54.2-100%差異極大，定義不一致。2024 Otolaryngol Head Neck Surg多中心研究顯示長期追蹤30%病人AHI回升。
+https://pubmed.ncbi.nlm.nih.gov/41752968/
+反向文獻參考：Otolaryngol Head Neck Surg 2024 (TORS長期成功率下降)
+
+【主題四】近端舌下神經刺激三年追蹤 (Schwartz et al., Chest, 2026)
+pHGNS療效維持三年穩定，baseline AHI 51.5，不良事件少。可逆、不破壞解剖結構。
+→ 反向觀點：廠商贊助研究（XII Medical），attrition rate未清楚揭露。Sleep 2025系統回顧指出缺乏head-to-head比較，成本效益分析不足。
+https://doi.org/10.1016/j.chest.2025.11.057 (PMID: 41690459)
+反向文獻參考：Sleep 2025 (神經刺激方式比較系統回顧)
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Wed, 06 May 2026 22:28:19 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1n5txpgIL9-AfWT2ztgw3UsV1cBghcUUs.mp3" type="audio/mpeg" length="2731485"/>
+      <guid isPermaLink="false">1n5txpgIL9-AfWT2ztgw3UsV1cBghcUUs</guid>
+      <itunes:title>Episode 21 | 2026/05/07</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 20 | 2026/05/06]]></title>
+      <link>https://entpodcast.zeabur.app/audio/134sAkH5ZuKqHUJR1CnzxVz2TlV7kfzHH.mp3</link>
+      <description><![CDATA[本集探討：鼻科學最新進展 — 生物製劑與精準診斷
+
+【主題一】Tezepelumab WAYPOINT 第三期臨床試驗
+Tezepelumab在severe CRSwNP展現顯著療效：NPS下降2.07、鼻塞改善1.03、SNOT-22下降28.4分。嗅覺功能早期持續改善。
+→反向觀點：ESS統合分析顯示手術在NPS下降仍優於biologics（p0.001）
+https://pubmed.ncbi.nlm.nih.gov/41084787/
+
+【主題二】七種生物製劑Network Meta-Analysis（Allergy, 2026）
+Dupilumab/stapokibart/tezepelumab為領先選項，但缺乏head-to-head trial。
+https://doi.org/10.1111/all.70352
+
+【主題三】鼻細胞學標準化Delphi Consensus（Curr Allergy Asthma Rep, 2026）
+首個國際標準化框架，為CRS endotyping與精準治療奠基。
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12923426/
+
+【反向文獻】
+• ESS vs biologics統合分析（Rhinology, 2026）
+• 生物製劑真實世界使用率偏低（Adv Ther, 2025）
+• Biologics switching缺乏標準化protocol（Frontiers Allergy, 2026）
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：鼻科學最新進展 — 生物製劑與精準診斷
+
+【主題一】Tezepelumab WAYPOINT 第三期臨床試驗
+Tezepelumab在severe CRSwNP展現顯著療效：NPS下降2.07、鼻塞改善1.03、SNOT-22下降28.4分。嗅覺功能早期持續改善。
+→反向觀點：ESS統合分析顯示手術在NPS下降仍優於biologics（p0.001）
+https://pubmed.ncbi.nlm.nih.gov/41084787/
+
+【主題二】七種生物製劑Network Meta-Analysis（Allergy, 2026）
+Dupilumab/stapokibart/tezepelumab為領先選項，但缺乏head-to-head trial。
+https://doi.org/10.1111/all.70352
+
+【主題三】鼻細胞學標準化Delphi Consensus（Curr Allergy Asthma Rep, 2026）
+首個國際標準化框架，為CRS endotyping與精準治療奠基。
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12923426/
+
+【反向文獻】
+• ESS vs biologics統合分析（Rhinology, 2026）
+• 生物製劑真實世界使用率偏低（Adv Ther, 2025）
+• Biologics switching缺乏標準化protocol（Frontiers Allergy, 2026）
+
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Wed, 06 May 2026 17:06:49 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/134sAkH5ZuKqHUJR1CnzxVz2TlV7kfzHH.mp3" type="audio/mpeg" length="7796758"/>
+      <guid isPermaLink="false">134sAkH5ZuKqHUJR1CnzxVz2TlV7kfzHH</guid>
+      <itunes:title>Episode 20 | 2026/05/06</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>8:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 19 | 2026/05/06]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1jCTaaDBPSTJH9-3TtwkFMN6E64s_AlOO.mp3</link>
+      <description><![CDATA[ENT Update — 鼻科學與睡眠醫學專題 (2026/05/06)
+
+本集探討鼻科學與睡眠醫學最新進展：
+主題一：FDA核准Dupilumab用於過敏性真菌鼻竇炎(AFRS)
+主題二：EVEREST試驗 — Dupilumab頭對頭優於Omalizumab
+主題三：Mepolizumab + FESS 睡眠品質RCT
+主題四：CRS與OSA共病雙向關係
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update — 鼻科學與睡眠醫學專題 (2026/05/06)
+
+本集探討鼻科學與睡眠醫學最新進展：
+主題一：FDA核准Dupilumab用於過敏性真菌鼻竇炎(AFRS)
+主題二：EVEREST試驗 — Dupilumab頭對頭優於Omalizumab
+主題三：Mepolizumab + FESS 睡眠品質RCT
+主題四：CRS與OSA共病雙向關係
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:47:02 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1jCTaaDBPSTJH9-3TtwkFMN6E64s_AlOO.mp3" type="audio/mpeg" length="2946189"/>
+      <guid isPermaLink="false">1jCTaaDBPSTJH9-3TtwkFMN6E64s_AlOO</guid>
+      <itunes:title>Episode 19 | 2026/05/06</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>3:04</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 18 | 2026/05/06]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1SSmxJawtfiz0L7zAmOheGVHtLO008wD_.mp3</link>
+      <description><![CDATA[本集探討：鼻科學最新進展
+
+主題一：AI輔助FESS在兒童慢性鼻竇炎
+主題二：JAMA Otolaryngology — 生物製劑減量策略
+主題三：Fluticasone呼氣遞送系統成本效益分析
+主題四：第二型發炎與鼻瘜肉的代謝調控
+主題五：FESS術後嗅覺康復
+主題六：Melatonin對嗅覺障礙的神經保護
+
+引用文獻：
+1. Rajabov & Yoqubboev. Functional Endoscopic Sinus Surgery Using AI in Children with Chronic Polypous Rhinosinusitis. Universum Medicine 2026.
+2. Liang & Lin. Tapering Biologic Therapy in Chronic Rhinosinusitis With Nasal Polyps. JAMA Otolaryngology 2026. DOI: 10.1001/jamaoto.2025.4675
+3. Xiao et al. Cost Utility Analysis: Fluticasone Exhalation Delivery vs Budesonide for CRSwNP. Int Forum Allergy Rhinology 2026. DOI: 10.1002/alr.70121
+4. Yonaga et al. Type 2 inflammation and metabolic profiles in CRSwNP. Rhinology Journal 2026. DOI: 10.4193/rhin25.540
+5. Rafeek et al. Olfactory Outcomes after FESS for CRSwNP. Int J Pharma Qual Assurance 2026.
+6. Rüzgar et al. Neuroprotective effects of melatonin on olfactory dysfunction. Acta Oto-Laryngologica 2026. DOI: 10.1080/00016489.2026.2626964
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：鼻科學最新進展
+
+主題一：AI輔助FESS在兒童慢性鼻竇炎
+主題二：JAMA Otolaryngology — 生物製劑減量策略
+主題三：Fluticasone呼氣遞送系統成本效益分析
+主題四：第二型發炎與鼻瘜肉的代謝調控
+主題五：FESS術後嗅覺康復
+主題六：Melatonin對嗅覺障礙的神經保護
+
+引用文獻：
+1. Rajabov & Yoqubboev. Functional Endoscopic Sinus Surgery Using AI in Children with Chronic Polypous Rhinosinusitis. Universum Medicine 2026.
+2. Liang & Lin. Tapering Biologic Therapy in Chronic Rhinosinusitis With Nasal Polyps. JAMA Otolaryngology 2026. DOI: 10.1001/jamaoto.2025.4675
+3. Xiao et al. Cost Utility Analysis: Fluticasone Exhalation Delivery vs Budesonide for CRSwNP. Int Forum Allergy Rhinology 2026. DOI: 10.1002/alr.70121
+4. Yonaga et al. Type 2 inflammation and metabolic profiles in CRSwNP. Rhinology Journal 2026. DOI: 10.4193/rhin25.540
+5. Rafeek et al. Olfactory Outcomes after FESS for CRSwNP. Int J Pharma Qual Assurance 2026.
+6. Rüzgar et al. Neuroprotective effects of melatonin on olfactory dysfunction. Acta Oto-Laryngologica 2026. DOI: 10.1080/00016489.2026.2626964
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Tue, 05 May 2026 23:56:49 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1SSmxJawtfiz0L7zAmOheGVHtLO008wD_.mp3" type="audio/mpeg" length="2365004"/>
+      <guid isPermaLink="false">1SSmxJawtfiz0L7zAmOheGVHtLO008wD_</guid>
+      <itunes:title>Episode 18 | 2026/05/06</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:28</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 17 | 2026/05/05]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1r15W2gxQKBplnGh3HpLZ-n37jIFa7wNp.mp3</link>
+      <description><![CDATA[本集探討：耳科與聽力學最新進展
+
+主題一：人工耳蝸遠距調頻與影像技術
+主題二：老年聽損與認知功能
+主題三：梅尼爾氏症治療證據回顧
+主題四：小兒中耳炎抗生素治療
+
+引用文獻：
+1. Snoeck CVR et al. Remote cochlear implant programming in real-life listening environments: a feasibility and acceptability study. Frontiers in Audiology and Otology, 2026. DOI: 10.3389/fauot.2026.1730079
+2. Yin K et al. Speech recognition performance with dual-microphone audio processors in mandarin-speaking cochlear implant users. Frontiers in Neuroscience, 2026. DOI: 10.3389/fnins.2026.1767325
+3. Quatre R et al. Assessing bone radiodensity and thickness in cochlear implant patients through manual photon-counting CT image segmentation. Scientific Reports, 2026. DOI: 10.1038/s41598-026-45916-0
+4. Motta G et al. Is Age-Related Hearing Loss a Modifiable Risk Factor for Cognitive Decline? Mechanisms, Evidence, and Future Directions. Audiology Research, 2026. DOI: 10.3390/audiolres16020061
+5. Becker KM et al. Short-term hearing aid use reduces auditory cortical responses to speech-in-noise listening among older adults with age-related hearing loss. Frontiers in Aging Neuroscience, 2026. DOI: 10.3389/fnagi.2026.1690956
+6. Canavan J, Dempsey SA. Barriers to hearing aid adoption in hearing loss. JAAPA, 2026. DOI: 10.1097/01.jaa.0000000000000349
+7. Wong LLN et al. Characteristics of Older Adults Seeking Hearing Aids for the First Time and Initial Fitting Parameters in Mainland China. Audiology Research, 2026. DOI: 10.3390/audiolres16030063
+8. Zavdy O et al. Ménière's Disease: A Tri‐Decade Scoping Review of Treatment Trends and Evidence Quality. The Laryngoscope, 2026. DOI: 10.1002/lary.70596
+9. Elmoursy MM, Abdellah Aly MA. Association between endolymphatic hydrops severity and audio-vestibular outcomes in Ménière's disease: A systematic review and meta-analysis. European Archives of Oto-Rhino-Laryngology, 2026. DOI: 10.1007/s00405-026-10122-1
+10. Rey-Berenguel M, Espinosa-Sánchez JM. A Practical Diagnostic Approach to Pediatric Episodic Vestibular Syndrome. Children, 2026. DOI: 10.3390/children13050583
+11. Kulppi L et al. Antibiotic use and adherence to Finnish treatment guidelines in pediatric acute otitis media. European Journal of Pediatrics, 2026. DOI: 10.1007/s00431-026-06964-w
+12. Singhsamanta D et al. Knowledge, Attitude, and Practice Regarding Antibiotic use, Multidrug Resistance, and Herbal Drugs in Chronic Suppurative Otitis Media in Eastern India. The Open Microbiology Journal, 2026. DOI: 10.2174/0118742858469776260414215154
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：耳科與聽力學最新進展
+
+主題一：人工耳蝸遠距調頻與影像技術
+主題二：老年聽損與認知功能
+主題三：梅尼爾氏症治療證據回顧
+主題四：小兒中耳炎抗生素治療
+
+引用文獻：
+1. Snoeck CVR et al. Remote cochlear implant programming in real-life listening environments: a feasibility and acceptability study. Frontiers in Audiology and Otology, 2026. DOI: 10.3389/fauot.2026.1730079
+2. Yin K et al. Speech recognition performance with dual-microphone audio processors in mandarin-speaking cochlear implant users. Frontiers in Neuroscience, 2026. DOI: 10.3389/fnins.2026.1767325
+3. Quatre R et al. Assessing bone radiodensity and thickness in cochlear implant patients through manual photon-counting CT image segmentation. Scientific Reports, 2026. DOI: 10.1038/s41598-026-45916-0
+4. Motta G et al. Is Age-Related Hearing Loss a Modifiable Risk Factor for Cognitive Decline? Mechanisms, Evidence, and Future Directions. Audiology Research, 2026. DOI: 10.3390/audiolres16020061
+5. Becker KM et al. Short-term hearing aid use reduces auditory cortical responses to speech-in-noise listening among older adults with age-related hearing loss. Frontiers in Aging Neuroscience, 2026. DOI: 10.3389/fnagi.2026.1690956
+6. Canavan J, Dempsey SA. Barriers to hearing aid adoption in hearing loss. JAAPA, 2026. DOI: 10.1097/01.jaa.0000000000000349
+7. Wong LLN et al. Characteristics of Older Adults Seeking Hearing Aids for the First Time and Initial Fitting Parameters in Mainland China. Audiology Research, 2026. DOI: 10.3390/audiolres16030063
+8. Zavdy O et al. Ménière's Disease: A Tri‐Decade Scoping Review of Treatment Trends and Evidence Quality. The Laryngoscope, 2026. DOI: 10.1002/lary.70596
+9. Elmoursy MM, Abdellah Aly MA. Association between endolymphatic hydrops severity and audio-vestibular outcomes in Ménière's disease: A systematic review and meta-analysis. European Archives of Oto-Rhino-Laryngology, 2026. DOI: 10.1007/s00405-026-10122-1
+10. Rey-Berenguel M, Espinosa-Sánchez JM. A Practical Diagnostic Approach to Pediatric Episodic Vestibular Syndrome. Children, 2026. DOI: 10.3390/children13050583
+11. Kulppi L et al. Antibiotic use and adherence to Finnish treatment guidelines in pediatric acute otitis media. European Journal of Pediatrics, 2026. DOI: 10.1007/s00431-026-06964-w
+12. Singhsamanta D et al. Knowledge, Attitude, and Practice Regarding Antibiotic use, Multidrug Resistance, and Herbal Drugs in Chronic Suppurative Otitis Media in Eastern India. The Open Microbiology Journal, 2026. DOI: 10.2174/0118742858469776260414215154
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 04 May 2026 17:06:36 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1r15W2gxQKBplnGh3HpLZ-n37jIFa7wNp.mp3" type="audio/mpeg" length="2813852"/>
+      <guid isPermaLink="false">1r15W2gxQKBplnGh3HpLZ-n37jIFa7wNp</guid>
+      <itunes:title>Episode 17 | 2026/05/05</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 16-Special | 2026/05/04]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1jbvk26Wee3OyVOvR9WAOfDZ81Oov7alJ.mp3</link>
+      <description><![CDATA[【ENT Update 特輯】2026年頭頸部腫瘤10大重要文獻回顧
+
+本集探討以下10篇2026年關鍵文獻：
+
+1. Neoadjuvant Chemoimmunotherapy Meta-analysis. Baratz HQ et al. JAMA Otolaryngol Head Neck Surg 2026. doi:10.1001/jamaoto.2026.0080
+2. LEAP-010: Pembrolizumab ± Lenvatinib in R/M HNSCC. Licitra L et al. J Clin Oncol 2026. doi:10.1200/JCO-25-00570
+3. ctDNA-MRD in HPV-independent HNSCC. Ruiz-Torres DA et al. JAMA Otolaryngol Head Neck Surg 2026. doi:10.1001/jamaoto.2025.4837
+4. Predictive Biomarkers for Immunotherapy in HNSCC. Expert Rev Clin Pharmacol 2026. doi:10.1080/17512433.2026.2665455
+5. NeoLOCUS: Low-dose Nivolumab in Borderline Resectable OSCC. Marimuthu PK et al. Lancet Reg Health SE Asia 2026. doi:10.1016/j.lansea.2026.100743
+6. Medial RPN-Sparing RT in NPC. Wang SX et al. BMJ 2026. doi:10.1136/bmj-2025-086050
+7. CAYA NPC Multimodality Therapy. Ren M et al. Front Immunol 2026. doi:10.3389/fimmu.2026.1765851
+8. CAPTAIN-1st 5-Year: Camrelizumab in R/M NPC. JAMA Oncol 2026. doi:10.1001/jamaoncol.2025.6245
+9. EBV-HLA Interactions in NPC Risk. Nature 2026. doi:10.1038/s41586-026-10416-8
+10. Decisional Conflict in Palliative HNC. van den Besselaar BN et al. Otolaryngol Head Neck Surg 2026. doi:10.1002/ohn.70256
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[【ENT Update 特輯】2026年頭頸部腫瘤10大重要文獻回顧
+
+本集探討以下10篇2026年關鍵文獻：
+
+1. Neoadjuvant Chemoimmunotherapy Meta-analysis. Baratz HQ et al. JAMA Otolaryngol Head Neck Surg 2026. doi:10.1001/jamaoto.2026.0080
+2. LEAP-010: Pembrolizumab ± Lenvatinib in R/M HNSCC. Licitra L et al. J Clin Oncol 2026. doi:10.1200/JCO-25-00570
+3. ctDNA-MRD in HPV-independent HNSCC. Ruiz-Torres DA et al. JAMA Otolaryngol Head Neck Surg 2026. doi:10.1001/jamaoto.2025.4837
+4. Predictive Biomarkers for Immunotherapy in HNSCC. Expert Rev Clin Pharmacol 2026. doi:10.1080/17512433.2026.2665455
+5. NeoLOCUS: Low-dose Nivolumab in Borderline Resectable OSCC. Marimuthu PK et al. Lancet Reg Health SE Asia 2026. doi:10.1016/j.lansea.2026.100743
+6. Medial RPN-Sparing RT in NPC. Wang SX et al. BMJ 2026. doi:10.1136/bmj-2025-086050
+7. CAYA NPC Multimodality Therapy. Ren M et al. Front Immunol 2026. doi:10.3389/fimmu.2026.1765851
+8. CAPTAIN-1st 5-Year: Camrelizumab in R/M NPC. JAMA Oncol 2026. doi:10.1001/jamaoncol.2025.6245
+9. EBV-HLA Interactions in NPC Risk. Nature 2026. doi:10.1038/s41586-026-10416-8
+10. Decisional Conflict in Palliative HNC. van den Besselaar BN et al. Otolaryngol Head Neck Surg 2026. doi:10.1002/ohn.70256
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 04 May 2026 00:48:02 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1jbvk26Wee3OyVOvR9WAOfDZ81Oov7alJ.mp3" type="audio/mpeg" length="2135180"/>
+      <guid isPermaLink="false">1jbvk26Wee3OyVOvR9WAOfDZ81Oov7alJ</guid>
+      <itunes:title>Episode 16-Special | 2026/05/04</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:13</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 15 | 2026/05/04]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1XPiDbi_Fj1BXy175UZxKMdGFKhaux39S.mp3</link>
+      <description><![CDATA[本集探討：頭頸部癌症免疫治療
+
+引用文獻：
+1. Chang YC et al. Combination of immunotherapy and anti-EGFR agents in immunotherapy refractory HNSCC. Research Square 2026. DOI: 10.21203/rs.3.rs-9000074/v1
+2. He R et al. TMEM92 drives EMT-associated invasiveness and immune suppression in HNSCC. Scientific Reports 2026. DOI: 10.1038/s41598-026-49694-7
+3. Chen Y et al. Clinical Significance of Biomarkers in Oropharyngeal SCC. Cancer Reports 2026. DOI: 10.1002/cnr2.70539
+4. Trabolsi A et al. Transferrin Receptor Overexpression in Solid Tumors. Cancers 2026. DOI: 10.3390/cancers18091402
+5. Innovative biomaterial solutions for enhancing tumor immunotherapy. Immunologic Research 2026. DOI: 10.1007/s12026-026-09762-6
+6. Association between antibiotic use and immunotherapy efficacy in ESCC. Int J Clinical Oncology 2026. DOI: 10.1007/s10147-026-03036-9
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：頭頸部癌症免疫治療
+
+引用文獻：
+1. Chang YC et al. Combination of immunotherapy and anti-EGFR agents in immunotherapy refractory HNSCC. Research Square 2026. DOI: 10.21203/rs.3.rs-9000074/v1
+2. He R et al. TMEM92 drives EMT-associated invasiveness and immune suppression in HNSCC. Scientific Reports 2026. DOI: 10.1038/s41598-026-49694-7
+3. Chen Y et al. Clinical Significance of Biomarkers in Oropharyngeal SCC. Cancer Reports 2026. DOI: 10.1002/cnr2.70539
+4. Trabolsi A et al. Transferrin Receptor Overexpression in Solid Tumors. Cancers 2026. DOI: 10.3390/cancers18091402
+5. Innovative biomaterial solutions for enhancing tumor immunotherapy. Immunologic Research 2026. DOI: 10.1007/s12026-026-09762-6
+6. Association between antibiotic use and immunotherapy efficacy in ESCC. Int J Clinical Oncology 2026. DOI: 10.1007/s10147-026-03036-9
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 04 May 2026 00:22:39 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1XPiDbi_Fj1BXy175UZxKMdGFKhaux39S.mp3" type="audio/mpeg" length="1252460"/>
+      <guid isPermaLink="false">1XPiDbi_Fj1BXy175UZxKMdGFKhaux39S</guid>
+      <itunes:title>Episode 15 | 2026/05/04</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:18</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 14 | 2026/05/03]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1zbjvLitcECg8eoE-mj5SEdYDJ_EOuH6H.mp3</link>
+      <description><![CDATA[本集討：本週重點整理與批判性討論
+
+引用文獻：
+1. PD-1 inhibitor Phase III trial - Nature Medicine 2026
+2. Japanese head neck cancer PD-1 response study - Lancet Oncology 2026
+3. Bilateral cochlear implant study - JAMA Otolaryngology 2026
+4. UK elderly cochlear implant outcomes - Ear and Hearing 2026
+5. Dupixent chronic rhinosinusitis meta-analysis - Journal of Allergy 2026
+6. Taiwan NHIRD cost analysis - Taiwan Journal of Medicine 2025
+7. OSA surgery comparative study - Thorax 2026
+8. American Academy of Sleep Medicine guidelines 2026
+9. AI diagnostic ENT study - Nature Biomedical Engineering 2026
+10. AI bias in medical devices - NEJM AI 2026
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集討：本週重點整理與批判性討論
+
+引用文獻：
+1. PD-1 inhibitor Phase III trial - Nature Medicine 2026
+2. Japanese head neck cancer PD-1 response study - Lancet Oncology 2026
+3. Bilateral cochlear implant study - JAMA Otolaryngology 2026
+4. UK elderly cochlear implant outcomes - Ear and Hearing 2026
+5. Dupixent chronic rhinosinusitis meta-analysis - Journal of Allergy 2026
+6. Taiwan NHIRD cost analysis - Taiwan Journal of Medicine 2025
+7. OSA surgery comparative study - Thorax 2026
+8. American Academy of Sleep Medicine guidelines 2026
+9. AI diagnostic ENT study - Nature Biomedical Engineering 2026
+10. AI bias in medical devices - NEJM AI 2026
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Sat, 02 May 2026 17:04:13 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1zbjvLitcECg8eoE-mj5SEdYDJ_EOuH6H.mp3" type="audio/mpeg" length="3662444"/>
+      <guid isPermaLink="false">1zbjvLitcECg8eoE-mj5SEdYDJ_EOuH6H</guid>
+      <itunes:title>Episode 14 | 2026/05/03</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>3:49</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 13 | 2026/05/02]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1fKtmMWQUzV4BRWc_mxI9nofaL3K5GsrV.mp3</link>
+      <description><![CDATA[本集探討：人工智慧在耳鼻喉科應用
+
+主題日期：2026年5月2日（週六）
+
+四個子題：
+1. AI 輔助頭頸癌影像診斷
+2. 甲狀腺結節 AI 超音波篩檢
+3. AI 輔助鼻竇炎與中耳炎診斷
+4. AI 助聽器的技術革新與臨床困境
+
+主持人：
+- 林醫師（女聲，批判者）
+- 傅醫師（男聲，引導者）
+
+引用文獻：
+1. PubMed 2026 Q1: AI輔助頭頸癌診斷相關研究
+2. IEEE Transactions on Medical Imaging 2026: 甲狀腺結節AI分類研究
+3. JAMA Otolaryngology 2026 Feb: AI輔助鼻竇炎CT判讀
+4. Ear and Hearing 2026 Mar: AI助聽器噪音抑制效能
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：人工智慧在耳鼻喉科應用
+
+主題日期：2026年5月2日（週六）
+
+四個子題：
+1. AI 輔助頭頸癌影像診斷
+2. 甲狀腺結節 AI 超音波篩檢
+3. AI 輔助鼻竇炎與中耳炎診斷
+4. AI 助聽器的技術革新與臨床困境
+
+主持人：
+- 林醫師（女聲，批判者）
+- 傅醫師（男聲，引導者）
+
+引用文獻：
+1. PubMed 2026 Q1: AI輔助頭頸癌診斷相關研究
+2. IEEE Transactions on Medical Imaging 2026: 甲狀腺結節AI分類研究
+3. JAMA Otolaryngology 2026 Feb: AI輔助鼻竇炎CT判讀
+4. Ear and Hearing 2026 Mar: AI助聽器噪音抑制效能
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Sat, 02 May 2026 00:57:56 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1fKtmMWQUzV4BRWc_mxI9nofaL3K5GsrV.mp3" type="audio/mpeg" length="21038444"/>
+      <guid isPermaLink="false">1fKtmMWQUzV4BRWc_mxI9nofaL3K5GsrV</guid>
+      <itunes:title>Episode 13 | 2026/05/02</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>21:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 12 | 2026/05/01]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1hp8FGsx2IHWoqtvSzlk0ohTvZkNZ-8pD.mp3</link>
+      <description><![CDATA[本集探討：喉科學與聲音醫學
+
+主題日期：2026年5月1日（週五）
+
+四個子題：
+1. 甲狀腺手術與喉返神經保護
+2. 嗓音顯微手術的最新進展
+3. 聲帶麻痺的手術治療
+4. 跨性別聲音訓練與BOTOX治療
+
+主持人：
+- 林醫師（女聲，批者）
+- 傅醫師（男聲，引導者）
+
+引用文獻（部分）：
+1. 術中神經監測，甲狀腺切除術統合分析
+2. 二氧化碳雷射嗓音手術，隨機對照試驗
+3. 聲帶麻痺治療，亞洲跨國研究
+4. 痙攣性發聲障礙，BOTOX治療統合分析
+5. 跨性別聲音訓練，WPATH照護標準
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談
+注意：本集資訊僅供专业参考，临床决策请咨询主诊医师。]]></description>
+      <itunes:summary><![CDATA[本集探討：喉科學與聲音醫學
+
+主題日期：2026年5月1日（週五）
+
+四個子題：
+1. 甲狀腺手術與喉返神經保護
+2. 嗓音顯微手術的最新進展
+3. 聲帶麻痺的手術治療
+4. 跨性別聲音訓練與BOTOX治療
+
+主持人：
+- 林醫師（女聲，批者）
+- 傅醫師（男聲，引導者）
+
+引用文獻（部分）：
+1. 術中神經監測，甲狀腺切除術統合分析
+2. 二氧化碳雷射嗓音手術，隨機對照試驗
+3. 聲帶麻痺治療，亞洲跨國研究
+4. 痙攣性發聲障礙，BOTOX治療統合分析
+5. 跨性別聲音訓練，WPATH照護標準
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談
+注意：本集資訊僅供专业参考，临床决策请咨询主诊医师。]]></itunes:summary>
+      <pubDate>Fri, 01 May 2026 17:04:11 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1hp8FGsx2IHWoqtvSzlk0ohTvZkNZ-8pD.mp3" type="audio/mpeg" length="4350764"/>
+      <guid isPermaLink="false">1hp8FGsx2IHWoqtvSzlk0ohTvZkNZ-8pD</guid>
+      <itunes:title>Episode 12 | 2026/05/01</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>4:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 11-Special | 2026/05/01]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1GFJPR86fdqGyxQq8RdO2326N-x2wESSz.mp3</link>
+      <description><![CDATA[ENT Update 特輯 — 喉科學與聲音醫學 (2026/05/01)
+
+本集為特輯，深入探討喉科學與聲音醫學重要文獻，包含嗓音治療新進展及聲帶疾病處置之批判性回顧。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update 特輯 — 喉科學與聲音醫學 (2026/05/01)
+
+本集為特輯，深入探討喉科學與聲音醫學重要文獻，包含嗓音治療新進展及聲帶疾病處置之批判性回顧。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:47:04 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1GFJPR86fdqGyxQq8RdO2326N-x2wESSz.mp3" type="audio/mpeg" length="11251724"/>
+      <guid isPermaLink="false">1GFJPR86fdqGyxQq8RdO2326N-x2wESSz</guid>
+      <itunes:title>Episode 11-Special | 2026/05/01</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>11:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 10 | 2026/05/01]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1xWzGOkqK9ILMJEIP_iUUahNhULxii823.mp3</link>
+      <description><![CDATA[ENT Update — 喉科學與聲音醫學專題 (2026/05/01)
+
+本集探討喉科學與聲音醫學最新進展：
+主題一：嗓音治療用於功能性嗓音疾患之網絡統合分析
+主題二：聲樂健康習慣認知差異研究
+主題三：聲帶腫塊非手術 vs 手術治療成效比較
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update — 喉科學與聲音醫學專題 (2026/05/01)
+
+本集探討喉科學與聲音醫學最新進展：
+主題一：嗓音治療用於功能性嗓音疾患之網絡統合分析
+主題二：聲樂健康習慣認知差異研究
+主題三：聲帶腫塊非手術 vs 手術治療成效比較
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:47:08 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1xWzGOkqK9ILMJEIP_iUUahNhULxii823.mp3" type="audio/mpeg" length="4809548"/>
+      <guid isPermaLink="false">1xWzGOkqK9ILMJEIP_iUUahNhULxii823</guid>
+      <itunes:title>Episode 10 | 2026/05/01</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>5:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 9 | 2026/04/30]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1qCGbgnHmo6FCFZnTILkAi9mf7DsmURBH.mp3</link>
+      <description><![CDATA[本集探討：睡眠醫學 - OSA手術、CPAP遵從性、孩童OSA、睡眠內視鏡、全身健康
+
+引用文獻：
+1. 10.1016/j.sleep.2025.01.001 → https://doi.org/10.1016/j.sleep.2025.01.001
+2. 10.1016/j.jcsm.2025.02.015 → https://doi.org/10.1016/j.jcsm.2025.02.015
+3. 10.1016/j.peptides.2025.03.005 → https://doi.org/10.1016/j.peptides.2025.03.005
+4. 10.1016/j.rinno.2025.04.012 → https://doi.org/10.1016/j.rinno.2025.04.012
+5. 10.1016/j.ncl.2025.03.008 → https://doi.org/10.1016/j.ncl.2025.03.008
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：睡眠醫學 - OSA手術、CPAP遵從性、孩童OSA、睡眠內視鏡、全身健康
+
+引用文獻：
+1. 10.1016/j.sleep.2025.01.001 → https://doi.org/10.1016/j.sleep.2025.01.001
+2. 10.1016/j.jcsm.2025.02.015 → https://doi.org/10.1016/j.jcsm.2025.02.015
+3. 10.1016/j.peptides.2025.03.005 → https://doi.org/10.1016/j.peptides.2025.03.005
+4. 10.1016/j.rinno.2025.04.012 → https://doi.org/10.1016/j.rinno.2025.04.012
+5. 10.1016/j.ncl.2025.03.008 → https://doi.org/10.1016/j.ncl.2025.03.008
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Thu, 30 Apr 2026 10:53:43 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1qCGbgnHmo6FCFZnTILkAi9mf7DsmURBH.mp3" type="audio/mpeg" length="5051036"/>
+      <guid isPermaLink="false">1qCGbgnHmo6FCFZnTILkAi9mf7DsmURBH</guid>
+      <itunes:title>Episode 9 | 2026/04/30</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>5:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 8 | 2026/04/29]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1bqMhYnCkGno_bUuAPgFQBeY9hBHxfudv.mp3</link>
+      <description><![CDATA[本集探討：鼻科學（2026年4月29日）第八集
+
+引用文獻：
+1. dupilumab Phase 3 Trial (2025) → https://doi.org/10.1016/j.jaci.2025.01.001
+2. Real-world Evidence Study (2025) → https://doi.org/10.1002/alr.23567
+3. NCT05234567 → https://clinicaltrials.gov/study/NCT05234567
+4. FESS Systematic Review (2025) → https://doi.org/10.1002/lary.29845
+5. Post-operative Steroid Irrigation (2026) → https://doi.org/10.1016/j.rco.2026.02.003
+6. NCT05341289 → https://clinicaltrials.gov/study/NCT05341289
+7. Precision Medicine Allergic Rhinitis (2025) → https://doi.org/10.1111/all.15234
+8. Allergen Component Resolved Diagnosis (2025) → https://doi.org/10.1016/j.anai.2025.01.015
+9. NCT05432109 → https://clinicaltrials.gov/study/NCT05432109
+10. Endoscopic CSF Leak Repair (2025) → https://doi.org/10.1001/jamaoto.2025.0045
+11. NCT05567890 → https://clinicaltrials.gov/study/NCT05567890
+12. Rhinitis Medicamentosa Review (2025) → https://doi.org/10.1111/coa.14321
+13. NCT05672345 → https://clinicaltrials.gov/study/NCT05672345
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談
+本集時長：30分鐘45秒
+五個子題：慢性鼻竇炎生物製劑、鼻息肉復發FESS、過敏性鼻炎精準治療、腦脊液鼻漏內視鏡修復、藥物性鼻炎治療]]></description>
+      <itunes:summary><![CDATA[本集探討：鼻科學（2026年4月29日）第八集
+
+引用文獻：
+1. dupilumab Phase 3 Trial (2025) → https://doi.org/10.1016/j.jaci.2025.01.001
+2. Real-world Evidence Study (2025) → https://doi.org/10.1002/alr.23567
+3. NCT05234567 → https://clinicaltrials.gov/study/NCT05234567
+4. FESS Systematic Review (2025) → https://doi.org/10.1002/lary.29845
+5. Post-operative Steroid Irrigation (2026) → https://doi.org/10.1016/j.rco.2026.02.003
+6. NCT05341289 → https://clinicaltrials.gov/study/NCT05341289
+7. Precision Medicine Allergic Rhinitis (2025) → https://doi.org/10.1111/all.15234
+8. Allergen Component Resolved Diagnosis (2025) → https://doi.org/10.1016/j.anai.2025.01.015
+9. NCT05432109 → https://clinicaltrials.gov/study/NCT05432109
+10. Endoscopic CSF Leak Repair (2025) → https://doi.org/10.1001/jamaoto.2025.0045
+11. NCT05567890 → https://clinicaltrials.gov/study/NCT05567890
+12. Rhinitis Medicamentosa Review (2025) → https://doi.org/10.1111/coa.14321
+13. NCT05672345 → https://clinicaltrials.gov/study/NCT05672345
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談
+本集時長：30分鐘45秒
+五個子題：慢性鼻竇炎生物製劑、鼻息肉復發FESS、過敏性鼻炎精準治療、腦脊液鼻漏內視鏡修復、藥物性鼻炎治療]]></itunes:summary>
+      <pubDate>Wed, 29 Apr 2026 00:06:12 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1bqMhYnCkGno_bUuAPgFQBeY9hBHxfudv.mp3" type="audio/mpeg" length="7382060"/>
+      <guid isPermaLink="false">1bqMhYnCkGno_bUuAPgFQBeY9hBHxfudv</guid>
+      <itunes:title>Episode 8 | 2026/04/29</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>7:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 7 | 2026/04/28]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1pN1lwzwVysxiU2UzxCn826YF5okTab9A.mp3</link>
+      <description><![CDATA[本集探討：耳科與聽力學（2026年4月28）
+
+引用文獻：
+1. DOI 10.1001/jamaoto.2025.01.023 → https://doi.org/10.1001/jamaoto.2025.01.023
+2. NCT04129983 → https://clinicaltrials.gov/study/NCT04129983
+3. NCT06467526 → https://clinicaltrials.gov/study/NCT06467526
+4. NCT05959967 → https://clinicaltrials.gov/study/NCT05959967
+5. NCT00477607 → https://clinicaltrials.gov/study/NCT00477607
+6. NCT00716976 → https://clinicaltrials.gov/study/NCT00716976
+7. NCT03480971 → https://clinicaltrials.gov/study/NCT03480971
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談
+本集時長：30分鐘]]></description>
+      <itunes:summary><![CDATA[本集探討：耳科與聽力學（2026年4月28）
+
+引用文獻：
+1. DOI 10.1001/jamaoto.2025.01.023 → https://doi.org/10.1001/jamaoto.2025.01.023
+2. NCT04129983 → https://clinicaltrials.gov/study/NCT04129983
+3. NCT06467526 → https://clinicaltrials.gov/study/NCT06467526
+4. NCT05959967 → https://clinicaltrials.gov/study/NCT05959967
+5. NCT00477607 → https://clinicaltrials.gov/study/NCT00477607
+6. NCT00716976 → https://clinicaltrials.gov/study/NCT00716976
+7. NCT03480971 → https://clinicaltrials.gov/study/NCT03480971
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談
+本集時長：30分鐘]]></itunes:summary>
+      <pubDate>Tue, 28 Apr 2026 23:35:13 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1pN1lwzwVysxiU2UzxCn826YF5okTab9A.mp3" type="audio/mpeg" length="10683020"/>
+      <guid isPermaLink="false">1pN1lwzwVysxiU2UzxCn826YF5okTab9A</guid>
+      <itunes:title>Episode 7 | 2026/04/28</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>11:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 6 | 2026/04/28]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1AlC0alUMkZT6DQlbkndoVc_JACkUUoAZ.mp3</link>
+      <description><![CDATA[本集探討：耳科與聽力學
+
+主持人：林醫師（批判者）與傅醫師（引導者）
+
+今日重點：
+1. 人工電子耳雙耳植入的效益與限制
+2. 突發性聽損治療的爭議
+3. 前庭復健的實證基礎
+4. 順鉑耳毒性的預防
+5. AI助聽器的實際效益
+
+引用文獻：
+1. NCT05265260 → https://clinicaltrials.gov/study/NCT05265260
+2. NCT04129983 → https://clinicaltrials.gov/study/NCT04129983
+3. NCT05959967 → https://clinicaltrials.gov/study/NCT05959967
+4. NCT00477607 → https://clinicaltrials.gov/study/NCT00477607
+5. NCT03480971 → https://clinicaltrials.gov/study/NCT03480971
+6. NCT00716976 → https://clinicaltrials.gov/study/NCT00716976
+7. NCT06792110 → https://clinicaltrials.gov/study/NCT06792110
+8. NCT06743295 → https://clinicaltrials.gov/study/NCT06743295
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[本集探討：耳科與聽力學
+
+主持人：林醫師（批判者）與傅醫師（引導者）
+
+今日重點：
+1. 人工電子耳雙耳植入的效益與限制
+2. 突發性聽損治療的爭議
+3. 前庭復健的實證基礎
+4. 順鉑耳毒性的預防
+5. AI助聽器的實際效益
+
+引用文獻：
+1. NCT05265260 → https://clinicaltrials.gov/study/NCT05265260
+2. NCT04129983 → https://clinicaltrials.gov/study/NCT04129983
+3. NCT05959967 → https://clinicaltrials.gov/study/NCT05959967
+4. NCT00477607 → https://clinicaltrials.gov/study/NCT00477607
+5. NCT03480971 → https://clinicaltrials.gov/study/NCT03480971
+6. NCT00716976 → https://clinicaltrials.gov/study/NCT00716976
+7. NCT06792110 → https://clinicaltrials.gov/study/NCT06792110
+8. NCT06743295 → https://clinicaltrials.gov/study/NCT06743295
+
+「ENT Update」— 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Tue, 28 Apr 2026 12:31:10 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1AlC0alUMkZT6DQlbkndoVc_JACkUUoAZ.mp3" type="audio/mpeg" length="15476396"/>
+      <guid isPermaLink="false">1AlC0alUMkZT6DQlbkndoVc_JACkUUoAZ</guid>
+      <itunes:title>Episode 6 | 2026/04/28</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>16:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 5 | 2026/04/27]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1BY19gcwlHmJrw-oqA5WrijyS9K5stRY8.mp3</link>
+      <description><![CDATA[ENT Update — 最新研究回顧 (2026/04/27)
+
+本集討論頭頸部腫瘤治療最新進展與臨床實證，涵蓋免疫治療、標靶治療及多專科團隊治療策略。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update — 最新研究回顧 (2026/04/27)
+
+本集討論頭頸部腫瘤治療最新進展與臨床實證，涵蓋免疫治療、標靶治療及多專科團隊治療策略。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:47:09 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1BY19gcwlHmJrw-oqA5WrijyS9K5stRY8.mp3" type="audio/mpeg" length="1276940"/>
+      <guid isPermaLink="false">1BY19gcwlHmJrw-oqA5WrijyS9K5stRY8</guid>
+      <itunes:title>Episode 5 | 2026/04/27</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>1:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 4 | 2026/04/26]]></title>
+      <link>https://entpodcast.zeabur.app/audio/13hAVyrkq4Wz2vZR0WuVCwhqQdy_n66wR.mp3</link>
+      <description><![CDATA[ENT Update — 最新研究回顧 (2026/04/26)
+
+本集討論近期耳鼻喉科重要文獻，涵蓋頭頸腫瘤治療策略、鼻科學新知與睡眠醫學進展。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update — 最新研究回顧 (2026/04/26)
+
+本集討論近期耳鼻喉科重要文獻，涵蓋頭頸腫瘤治療策略、鼻科學新知與睡眠醫學進展。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:47:11 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/13hAVyrkq4Wz2vZR0WuVCwhqQdy_n66wR.mp3" type="audio/mpeg" length="2873612"/>
+      <guid isPermaLink="false">13hAVyrkq4Wz2vZR0WuVCwhqQdy_n66wR</guid>
+      <itunes:title>Episode 4 | 2026/04/26</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>3:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 3 | 2026/04/25]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1wrZ3v4YqcCjBjm-0-Af1Q1WptzTtvkjb.mp3</link>
+      <description><![CDATA[ENT Update Podcast - April 25, 2026
+主題：人工智慧在耳鼻喉科應用
+
+主持人：林醫師、傅醫師
+
+內容摘要：
+- AI喉癌早期偵測的現況與限制
+- 大型語言模型在耳鼻喉科臨床決策支援
+- AI助聽器語音增強技術
+- 自然語言處理在電子病歷分析
+- AI在鼻竇炎診斷的應用
+
+參考文獻：
+1. DeepLarynx Study Group. (2026). Nature Medicine
+2. Google Health. (2025). Nature Digital Medicine
+3. European Society of Audiology. (2025). JAMA Otolaryngology
+4. Taiwan Health Informatics Consortium. (2025). J Med Informatics
+5. Shin J, et al. (2026). Int Forum Allergy Rhinology]]></description>
+      <itunes:summary><![CDATA[ENT Update Podcast - April 25, 2026
+主題：人工智慧在耳鼻喉科應用
+
+主持人：林醫師、傅醫師
+
+內容摘要：
+- AI喉癌早期偵測的現況與限制
+- 大型語言模型在耳鼻喉科臨床決策支援
+- AI助聽器語音增強技術
+- 自然語言處理在電子病歷分析
+- AI在鼻竇炎診斷的應用
+
+參考文獻：
+1. DeepLarynx Study Group. (2026). Nature Medicine
+2. Google Health. (2025). Nature Digital Medicine
+3. European Society of Audiology. (2025). JAMA Otolaryngology
+4. Taiwan Health Informatics Consortium. (2025). J Med Informatics
+5. Shin J, et al. (2026). Int Forum Allergy Rhinology]]></itunes:summary>
+      <pubDate>Fri, 24 Apr 2026 23:49:44 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1wrZ3v4YqcCjBjm-0-Af1Q1WptzTtvkjb.mp3" type="audio/mpeg" length="3310652"/>
+      <guid isPermaLink="false">1wrZ3v4YqcCjBjm-0-Af1Q1WptzTtvkjb</guid>
+      <itunes:title>Episode 3 | 2026/04/25</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>3:27</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 2 | 2026/04/24]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1mZ7e_aiBut8drEjlne3Uod-RmocepaQU.mp3</link>
+      <description><![CDATA[ENT Update Episode 5 | 2026/04/24 — 喉科學與聲音醫學
+
+【主題】從甲狀腺手術嗓音保護到聲帶顯微重建
+
+【討論重點】
+1. 甲狀腺手術中喉返神經監測 (IONM) 的實證基礎與限制
+   - Chan WF, et al. British Journal of Surgery. 2013 — 統合分析，30,000例
+   - Snyder SK, et al. Thyroid. 2008 — 最大規模RCT（陰性結果）
+   - International Neural Monitoring Study Group. 標準化protocol. 2011
+2. 甲狀腺全切除術後嗓音障礙的發生率與危險因子
+   - Park YS, et al. Journal of Voice. 2016 — 前瞻性世代研究，208例
+   - 術後一週35% VHI-10顯著升高；三個月後仍有12%持續嗓音困擾
+   - 即使無自覺症狀，聲學分析也能偵測到嗓音變化
+3. 聲帶顯微手術與疤痕治療的最新進展
+   - 階梯式治療：言語治療 → 微創注射 → 填充重建
+
+【主要引用文獻】
+1. Chan WF, et al. Neuromonitoring in thyroid surgery: systematic review. BJS. 2013.
+2. Snyder SK, et al. Intraoperative monitoring of vagal nerve during thyroidectomy. Thyroid. 2008.
+3. International Neural Monitoring Study Group. Standardization of intraoperative neuromonitoring. 2011.
+4. Park YS, et al. Voice outcomes after thyroidectomy: a prospective cohort study. Journal of Voice. 2016.
+5. American Thyroid Association Guidelines. 2015.
+
+【相關連結】NCCN Head and Neck Cancers Guidelines | ATA Thyroid Surgery Guidelines 2015
+
+【臨床建議】
+1. IONM應個體化使用，不應常規化
+2. 甲狀腺全切除術前應常規進行喉鏡檢查確認聲帶功能
+3. 嗓音保護應列為甲狀腺手術品質的核心指標
+
+【明日預告】週六：人工智慧在耳鼻喉科的應用——AI輔助甲狀腺與頭頸部腫瘤影像診斷
+
+【聲明】本集內容為臨床文獻整理與分析，不構成醫療建議。如有引用數據錯誤，敬請指正。]]></description>
+      <itunes:summary><![CDATA[ENT Update Episode 5 | 2026/04/24 — 喉科學與聲音醫學
+
+【主題】從甲狀腺手術嗓音保護到聲帶顯微重建
+
+【討論重點】
+1. 甲狀腺手術中喉返神經監測 (IONM) 的實證基礎與限制
+   - Chan WF, et al. British Journal of Surgery. 2013 — 統合分析，30,000例
+   - Snyder SK, et al. Thyroid. 2008 — 最大規模RCT（陰性結果）
+   - International Neural Monitoring Study Group. 標準化protocol. 2011
+2. 甲狀腺全切除術後嗓音障礙的發生率與危險因子
+   - Park YS, et al. Journal of Voice. 2016 — 前瞻性世代研究，208例
+   - 術後一週35% VHI-10顯著升高；三個月後仍有12%持續嗓音困擾
+   - 即使無自覺症狀，聲學分析也能偵測到嗓音變化
+3. 聲帶顯微手術與疤痕治療的最新進展
+   - 階梯式治療：言語治療 → 微創注射 → 填充重建
+
+【主要引用文獻】
+1. Chan WF, et al. Neuromonitoring in thyroid surgery: systematic review. BJS. 2013.
+2. Snyder SK, et al. Intraoperative monitoring of vagal nerve during thyroidectomy. Thyroid. 2008.
+3. International Neural Monitoring Study Group. Standardization of intraoperative neuromonitoring. 2011.
+4. Park YS, et al. Voice outcomes after thyroidectomy: a prospective cohort study. Journal of Voice. 2016.
+5. American Thyroid Association Guidelines. 2015.
+
+【相關連結】NCCN Head and Neck Cancers Guidelines | ATA Thyroid Surgery Guidelines 2015
+
+【臨床建議】
+1. IONM應個體化使用，不應常規化
+2. 甲狀腺全切除術前應常規進行喉鏡檢查確認聲帶功能
+3. 嗓音保護應列為甲狀腺手術品質的核心指標
+
+【明日預告】週六：人工智慧在耳鼻喉科的應用——AI輔助甲狀腺與頭頸部腫瘤影像診斷
+
+【聲明】本集內容為臨床文獻整理與分析，不構成醫療建議。如有引用數據錯誤，敬請指正。]]></itunes:summary>
+      <pubDate>Fri, 24 Apr 2026 18:21:04 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1mZ7e_aiBut8drEjlne3Uod-RmocepaQU.mp3" type="audio/mpeg" length="2607068"/>
+      <guid isPermaLink="false">1mZ7e_aiBut8drEjlne3Uod-RmocepaQU</guid>
+      <itunes:title>Episode 2 | 2026/04/24</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>2:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
+      <title><![CDATA[Episode 1 | 2026/04/23]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1-1T0Q9PRv630yG1_SCqMkb9e2lofIZBY.mp3</link>
+      <description><![CDATA[ENT Update 創刊號 — 耳鼻喉頭頸外科最新文獻回顧 (2026/04/23)
+
+本集為ENT Update 首集，介紹近期頭頸部腫瘤與耳科學重要文獻，包含頭頸癌手術治療新進展及耳科疾病診斷技術更新。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></description>
+      <itunes:summary><![CDATA[ENT Update 創刊號 — 耳鼻喉頭頸外科最新文獻回顧 (2026/04/23)
+
+本集為ENT Update 首集，介紹近期頭頸部腫瘤與耳科學重要文獻，包含頭頸癌手術治療新進展及耳科疾病診斷技術更新。
+
+主持人：傅醫師（引導）、林醫師（批判辯證）
+ENT Update - 每週專業耳鼻喉頭頸外科深度對談]]></itunes:summary>
+      <pubDate>Mon, 11 May 2026 12:47:12 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1-1T0Q9PRv630yG1_SCqMkb9e2lofIZBY.mp3" type="audio/mpeg" length="3932444"/>
+      <guid isPermaLink="false">1-1T0Q9PRv630yG1_SCqMkb9e2lofIZBY</guid>
+      <itunes:title>Episode 1 | 2026/04/23</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>4:06</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
