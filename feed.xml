@@ -21,7 +21,33 @@
     <itunes:image href="https://entpodcast.zeabur.app/static/ent-update-cover-3000.jpg"/>
     <image><url>https://entpodcast.zeabur.app/static/ent-update-cover-3000.jpg</url><title>ENT Update</title><link>https://entpodcast.zeabur.app</link></image>
     <ttl>60</ttl>
-    <item>
+        <item>
+      <title><![CDATA[Episode 40 | 2026/05/20]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1FFA-wmfJzhqpLYaGjh0q4YjQSvGCqdd8.mp3</link>
+      <description><![CDATA[鼻科學專輯｜Stapokibart Phase 3 SAR｜Stapokibart Real-world｜AR Biologics Review｜CRSwNP Biologics SR｜Network Meta-analysis Biologics｜Transorbital Endoscopic CSF Leak｜Vitamin D Nasal Spray Anosmia｜Olfactory QoL｜ENT Update Podcast]]></description>
+      <itunes:summary><![CDATA[ENT Update Podcast - 2026/05/20
+主題：鼻科學最新文獻回顧
+
+本集討論8篇文獻：
+1. Stapokibart Phase 3 for SAR - Nature Medicine, Apr 2025
+   DOI: 10.1038/s41591-025-03651-5
+2. Stapokibart Real-world Study - Eur Arch Otorhinolaryngol, Apr 2026
+   DOI: 10.1007/s00405-026-10184-1
+3. Biologics in Allergic Rhinitis Review - PMC, May 2025
+4. Biologics for CRSwNP Systematic Review - PMC, Feb 2025
+5. Best Biologic for Nasal Polyps Network Meta-Analysis - Clin Transl Allergy, Nov 2025
+6. Transorbital Endoscopic CSF Leak Meta-Analysis - Neurosurg Rev, Mar 2025
+7. Vitamin D Nasal Spray for Anosmia - UF Health, Apr 2025
+8. Olfactory Loss QoL Review - Chem Senses, 2025]]></itunes:summary>
+      <pubDate>Wed, 20 May 2026 00:01:00 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1FFA-wmfJzhqpLYaGjh0q4YjQSvGCqdd8.mp3" type="audio/mpeg" length="9876000"/>
+      <guid isPermaLink="false">1FFA-wmfJzhqpLYaGjh0q4YjQSvGCqdd8</guid>
+      <itunes:title>Episode 40 | 2026/05/20</itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>10:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+<item>
       <title><![CDATA[Episode 36-Special | 2026/05/16]]></title>
       <link>https://entpodcast.zeabur.app/audio/1eZiZY-8fo9XTRnnMpRF4FlKj4qZq_CtS.mp3</link>
       <description><![CDATA[睡眠外科特輯｜PPPP｜OSA+LPR｜舌骨懸吊｜pHGNS 3年｜HNS分期｜OSPREY｜機器人舌根｜術前篩檢｜唐氏症兒童｜ENT Update Podcast]]></description>
