@@ -26,6 +26,65 @@
     </image>
     <ttl>60</ttl>
     <item>
+      <title><![CDATA[Episode 41 | 2026/05/22]]></title>
+      <link>https://entpodcast.zeabur.app/audio/1PyHFGIfTRuBncW_eK9QcsKdUBdiMjjbE.mp3</link>
+      <description><![CDATA[ENT Update Podcast - 2026/05/22 (週五)
+主題：喉科學與聲音醫學 — AI語音分析、嗓音治療共識、Vocal Age Gap
+
+本集討論文獻：
+
+1. AI語音分析偵測喉癌
+   Jenkins P et al. Frontiers in Digital Health, 2025 Jun.
+   DOI: 10.3389/fdgth.2025.1609811
+   TechNews報導: https://technews.tw/2026/04/11/ai-may-soon-detect-cancer-just-by-listening-to-you-speak/
+   Meta-analysis: AI in Laryngeal Cancer Detection (PMC, 2025 Jun)
+   Sensitivity 78%, Specificity 86%, DOR 53.77
+
+2. AAO-HNS/ASHA Consensus Statement on Voice Therapy
+   March 3, 2026
+   https://www.entnet.org/resource/consensus-statement-on-the-use-of-voice-therapy-in-the-treatment-of-dysphonia/
+
+3. Vocal Age Gap as Noninvasive Biomarker
+   Journal of Voice / ScienceDirect, April 2026
+   https://www.sciencedirect.com/science/article/abs/pii/S0892199726001256
+
+4. UC Health Laryngeal Framework Surgery Outcomes
+   ClinicalTrials.gov, May 2026
+   https://clinicaltrials.ucbraid.org/unilateral-vocal-cord-paralysis
+
+5. Diabetes Voice Analysis (T2DM vowels)
+   Frontiers in Digital Health, 2026
+   DOI: 10.3389/fdgth.2026.1739091
+
+6. RRP Injectable Imiquimod - NYU Langone Voice Center
+   Preclinical safety, planning early-phase human trials
+
+7. Taiwan Laryngology Association AI Voice Analysis Review
+   TLA, May 2026
+   https://tla.org.tw/]]></description>
+      <itunes:summary><![CDATA[ENT Update Podcast - 2026/05/22 (週五)
+主題：喉科學與聲音醫學
+
+本集討論7個主題：
+1. AI語音分析偵測喉癌 (Frontiers in Digital Health, Apr 2026)
+2. AAO-HNS/ASHA嗓音治療共識聲明 (Mar 2026)
+3. Vocal Age Gap作為非侵入性生物標記 (J Voice, Apr 2026)
+4. Laryngeal Framework Surgery長期預後 (UC Health, May 2026)
+5. 糖尿病聲音分析 (Frontiers, 2026)
+6. RRP注射Imiquimod (NYU Langone)
+7. 台灣喉科醫學會AI嗓音分析報告 (May 2026)
+
+主持人：傅醫師 & 林醫師
+片長：13分16秒]]></itunes:summary>
+      <pubDate>Thu, 21 May 2026 17:00:00 GMT</pubDate>
+      <enclosure url="https://entpodcast.zeabur.app/audio/1PyHFGIfTRuBncW_eK9QcsKdUBdiMjjbE.mp3" type="audio/mpeg" length="12742365"/>
+      <guid isPermaLink="false">1PyHFGIfTRuBncW_eK9QcsKdUBdiMjjbE</guid>
+      <itunes:title><![CDATA[Episode 41 | 2026/05/22]]></itunes:title>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:duration>13:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Episode 40 | 2026/05/20</title>
       <link>https://entpodcast.zeabur.app/audio/1FFA-wmfJzhqpLYaGjh0q4YjQSvGCqdd8.mp3</link>
       <description>鼻科學專輯｜Stapokibart Phase 3 SAR｜Stapokibart Real-world｜AR Biologics Review｜CRSwNP Biologics SR｜Network Meta-analysis Biologics｜Transorbital Endoscopic CSF Leak｜Vitamin D Nasal Spray Anosmia｜Olfactory QoL｜ENT Update Podcast</description>
@@ -1692,9 +1751,9 @@ ENT Update - 每週專業耳鼻喉頭頸外科深度對談</itunes:summary>
       <itunes:explicit>false</itunes:explicit>
     </item>
     <item>
-      <title><![CDATA[Episode 41 | 2026/05/22]]></title>
+      <title>Episode 41 | 2026/05/22</title>
       <link>https://entpodcast.zeabur.app/audio/1PyHFGIfTRuBncW_eK9QcsKdUBdiMjjbE.mp3</link>
-      <description><![CDATA[ENT Update Podcast - 2026/05/22 (週五)
+      <description>ENT Update Podcast - 2026/05/22 (週五)
 主題：喉科學與聲音醫學 — AI語音分析、嗓音治療共識、Vocal Age Gap
 
 本集討論文獻：
@@ -1727,8 +1786,8 @@ ENT Update - 每週專業耳鼻喉頭頸外科深度對談</itunes:summary>
 
 7. Taiwan Laryngology Association AI Voice Analysis Review
    TLA, May 2026
-   https://tla.org.tw/]]></description>
-      <itunes:summary><![CDATA[ENT Update Podcast - 2026/05/22 (週五)
+   https://tla.org.tw/</description>
+      <itunes:summary>ENT Update Podcast - 2026/05/22 (週五)
 主題：喉科學與聲音醫學
 
 本集討論7個主題：
@@ -1740,12 +1799,12 @@ ENT Update - 每週專業耳鼻喉頭頸外科深度對談</itunes:summary>
 6. RRP注射Imiquimod (NYU Langone)
 7. 台灣喉科醫學會AI嗓音分析報告 (May 2026)
 
-主持人：傅醫師 & 林醫師
-片長：13分16秒]]></itunes:summary>
+主持人：傅醫師 &amp; 林醫師
+片長：13分16秒</itunes:summary>
       <pubDate>Thu, 21 May 2026 17:00:00 GMT</pubDate>
       <enclosure url="https://entpodcast.zeabur.app/audio/1PyHFGIfTRuBncW_eK9QcsKdUBdiMjjbE.mp3" type="audio/mpeg" length="12742365"/>
       <guid isPermaLink="false">1PyHFGIfTRuBncW_eK9QcsKdUBdiMjjbE</guid>
-      <itunes:title><![CDATA[Episode 41 | 2026/05/22]]></itunes:title>
+      <itunes:title>Episode 41 | 2026/05/22</itunes:title>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:duration>13:16</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
