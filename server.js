@@ -141,14 +141,26 @@ function uploadFileToDrive(localFilePath, remoteFileName) {
 async function getPodcastFiles() {
   const folderId = ENT_FOLDER_ID;
   const query = `mimeType='audio/mpeg' and '${folderId}' in parents and trashed=false`;
+  const allFiles = [];
+  let pageToken = null;
 
-  const result = await driveRequest('/drive/v3/files', {
-    fields: 'files(id,name,mimeType,createdTime,modifiedTime,size,description)',
-    q: query,
-    pageSize: 50,
-    orderBy: 'createdTime desc'
-  });
-  return result.files || [];
+  do {
+    const params = {
+      fields: 'files(id,name,mimeType,createdTime,modifiedTime,size,description),nextPageToken',
+      q: query,
+      pageSize: 100,
+      orderBy: 'createdTime desc'
+    };
+    if (pageToken) params.pageToken = pageToken;
+
+    const result = await driveRequest('/drive/v3/files', params);
+    if (result.files) allFiles.push(...result.files);
+    pageToken = result.nextPageToken || null;
+    console.log(`[Drive] Fetched ${result.files ? result.files.length : 0} files, hasMore=${!!pageToken}`);
+  } while (pageToken);
+
+  console.log(`[Drive] Total files fetched: ${allFiles.length}`);
+  return allFiles;
 }
 
 // ========== Audio Proxy (stream from Google Drive via Maton) ==========
